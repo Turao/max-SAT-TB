@@ -1,0 +1,3388 @@
+Problem:    solver_max
+Rows:       754
+Columns:    928 (928 integer, 928 binary)
+Non-zeros:  2691
+Status:     INTEGER OPTIMAL
+Objective:  valid_clauses = 753 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 valid_clauses
+                                 753                             
+     2 clause_value_restriction[1]
+                                  -1            -2               
+     3 clause_value_restriction[2]
+                                   0            -1               
+     4 clause_value_restriction[3]
+                                   0            -0               
+     5 clause_value_restriction[4]
+                                   0            -1               
+     6 clause_value_restriction[5]
+                                  -1            -2               
+     7 clause_value_restriction[6]
+                                   1            -1               
+     8 clause_value_restriction[7]
+                                   0            -0               
+     9 clause_value_restriction[8]
+                                  -1            -2               
+    10 clause_value_restriction[9]
+                                  -1            -1               
+    11 clause_value_restriction[10]
+                                  -1            -1               
+    12 clause_value_restriction[11]
+                                   0            -1               
+    13 clause_value_restriction[12]
+                                   0            -1               
+    14 clause_value_restriction[13]
+                                  -1            -1               
+    15 clause_value_restriction[14]
+                                   0            -2               
+    16 clause_value_restriction[15]
+                                  -1            -2               
+    17 clause_value_restriction[16]
+                                  -1            -2               
+    18 clause_value_restriction[17]
+                                  -1            -1               
+    19 clause_value_restriction[18]
+                                  -1            -2               
+    20 clause_value_restriction[19]
+                                   0            -1               
+    21 clause_value_restriction[20]
+                                  -1            -2               
+    22 clause_value_restriction[21]
+                                  -1            -1               
+    23 clause_value_restriction[22]
+                                   0            -1               
+    24 clause_value_restriction[23]
+                                  -1            -1               
+    25 clause_value_restriction[24]
+                                   0            -0               
+    26 clause_value_restriction[25]
+                                  -1            -3               
+    27 clause_value_restriction[26]
+                                  -1            -1               
+    28 clause_value_restriction[27]
+                                   0            -0               
+    29 clause_value_restriction[28]
+                                   0            -2               
+    30 clause_value_restriction[29]
+                                   0            -2               
+    31 clause_value_restriction[30]
+                                   0            -0               
+    32 clause_value_restriction[31]
+                                  -1            -2               
+    33 clause_value_restriction[32]
+                                  -1            -3               
+    34 clause_value_restriction[33]
+                                  -1            -3               
+    35 clause_value_restriction[34]
+                                  -1            -2               
+    36 clause_value_restriction[35]
+                                   0            -1               
+    37 clause_value_restriction[36]
+                                   0            -2               
+    38 clause_value_restriction[37]
+                                   0            -2               
+    39 clause_value_restriction[38]
+                                   2            -0               
+    40 clause_value_restriction[39]
+                                   0            -2               
+    41 clause_value_restriction[40]
+                                   1            -0               
+    42 clause_value_restriction[41]
+                                  -1            -1               
+    43 clause_value_restriction[42]
+                                  -1            -2               
+    44 clause_value_restriction[43]
+                                  -1            -2               
+    45 clause_value_restriction[44]
+                                   0            -1               
+    46 clause_value_restriction[45]
+                                  -1            -1               
+    47 clause_value_restriction[46]
+                                  -1            -2               
+    48 clause_value_restriction[47]
+                                  -1            -1               
+    49 clause_value_restriction[48]
+                                  -1            -2               
+    50 clause_value_restriction[49]
+                                  -1            -1               
+    51 clause_value_restriction[50]
+                                  -1            -2               
+    52 clause_value_restriction[51]
+                                  -1            -1               
+    53 clause_value_restriction[52]
+                                  -1            -2               
+    54 clause_value_restriction[53]
+                                   0            -1               
+    55 clause_value_restriction[54]
+                                   0            -0               
+    56 clause_value_restriction[55]
+                                   1            -0               
+    57 clause_value_restriction[56]
+                                  -1            -2               
+    58 clause_value_restriction[57]
+                                   0            -2               
+    59 clause_value_restriction[58]
+                                  -1            -3               
+    60 clause_value_restriction[59]
+                                  -1            -1               
+    61 clause_value_restriction[60]
+                                   0            -1               
+    62 clause_value_restriction[61]
+                                  -1            -1               
+    63 clause_value_restriction[62]
+                                  -1            -1               
+    64 clause_value_restriction[63]
+                                   0            -1               
+    65 clause_value_restriction[64]
+                                   0            -1               
+    66 clause_value_restriction[65]
+                                   0            -1               
+    67 clause_value_restriction[66]
+                                  -1            -2               
+    68 clause_value_restriction[67]
+                                  -1            -1               
+    69 clause_value_restriction[68]
+                                  -1            -2               
+    70 clause_value_restriction[69]
+                                  -1            -1               
+    71 clause_value_restriction[70]
+                                  -1            -2               
+    72 clause_value_restriction[71]
+                                   0            -2               
+    73 clause_value_restriction[72]
+                                  -1            -2               
+    74 clause_value_restriction[73]
+                                   1            -0               
+    75 clause_value_restriction[74]
+                                   0            -2               
+    76 clause_value_restriction[75]
+                                  -1            -2               
+    77 clause_value_restriction[76]
+                                   0            -2               
+    78 clause_value_restriction[77]
+                                   0            -0               
+    79 clause_value_restriction[78]
+                                  -1            -1               
+    80 clause_value_restriction[79]
+                                   0            -1               
+    81 clause_value_restriction[80]
+                                   0            -0               
+    82 clause_value_restriction[81]
+                                   0            -0               
+    83 clause_value_restriction[82]
+                                   0            -1               
+    84 clause_value_restriction[83]
+                                  -1            -2               
+    85 clause_value_restriction[84]
+                                  -1            -3               
+    86 clause_value_restriction[85]
+                                  -1            -1               
+    87 clause_value_restriction[86]
+                                  -1            -1               
+    88 clause_value_restriction[87]
+                                   0            -0               
+    89 clause_value_restriction[88]
+                                   0            -2               
+    90 clause_value_restriction[89]
+                                   0            -0               
+    91 clause_value_restriction[90]
+                                  -1            -2               
+    92 clause_value_restriction[91]
+                                  -1            -2               
+    93 clause_value_restriction[92]
+                                   0            -2               
+    94 clause_value_restriction[93]
+                                   0            -0               
+    95 clause_value_restriction[94]
+                                   0            -2               
+    96 clause_value_restriction[95]
+                                  -1            -2               
+    97 clause_value_restriction[96]
+                                   0            -2               
+    98 clause_value_restriction[97]
+                                  -1            -1               
+    99 clause_value_restriction[98]
+                                  -1            -3               
+   100 clause_value_restriction[99]
+                                   0            -2               
+   101 clause_value_restriction[100]
+                                   0            -1               
+   102 clause_value_restriction[101]
+                                   0            -1               
+   103 clause_value_restriction[102]
+                                  -1            -2               
+   104 clause_value_restriction[103]
+                                   0            -1               
+   105 clause_value_restriction[104]
+                                  -1            -1               
+   106 clause_value_restriction[105]
+                                   0            -1               
+   107 clause_value_restriction[106]
+                                  -1            -1               
+   108 clause_value_restriction[107]
+                                   0            -1               
+   109 clause_value_restriction[108]
+                                  -1            -1               
+   110 clause_value_restriction[109]
+                                  -1            -3               
+   111 clause_value_restriction[110]
+                                   0            -2               
+   112 clause_value_restriction[111]
+                                   1            -0               
+   113 clause_value_restriction[112]
+                                  -1            -1               
+   114 clause_value_restriction[113]
+                                  -1            -3               
+   115 clause_value_restriction[114]
+                                   0            -2               
+   116 clause_value_restriction[115]
+                                   0            -2               
+   117 clause_value_restriction[116]
+                                   0            -1               
+   118 clause_value_restriction[117]
+                                   0            -1               
+   119 clause_value_restriction[118]
+                                   0            -0               
+   120 clause_value_restriction[119]
+                                   1            -0               
+   121 clause_value_restriction[120]
+                                   0            -2               
+   122 clause_value_restriction[121]
+                                  -1            -2               
+   123 clause_value_restriction[122]
+                                  -1            -1               
+   124 clause_value_restriction[123]
+                                   0            -2               
+   125 clause_value_restriction[124]
+                                  -1            -3               
+   126 clause_value_restriction[125]
+                                  -1            -2               
+   127 clause_value_restriction[126]
+                                  -1            -2               
+   128 clause_value_restriction[127]
+                                  -1            -3               
+   129 clause_value_restriction[128]
+                                  -1            -3               
+   130 clause_value_restriction[129]
+                                  -1            -3               
+   131 clause_value_restriction[130]
+                                  -1            -2               
+   132 clause_value_restriction[131]
+                                   0            -0               
+   133 clause_value_restriction[132]
+                                   0            -1               
+   134 clause_value_restriction[133]
+                                   0            -0               
+   135 clause_value_restriction[134]
+                                   1            -0               
+   136 clause_value_restriction[135]
+                                   0            -1               
+   137 clause_value_restriction[136]
+                                  -1            -2               
+   138 clause_value_restriction[137]
+                                   0            -1               
+   139 clause_value_restriction[138]
+                                  -1            -3               
+   140 clause_value_restriction[139]
+                                   0            -2               
+   141 clause_value_restriction[140]
+                                  -1            -3               
+   142 clause_value_restriction[141]
+                                  -1            -1               
+   143 clause_value_restriction[142]
+                                  -1            -1               
+   144 clause_value_restriction[143]
+                                  -1            -2               
+   145 clause_value_restriction[144]
+                                  -1            -2               
+   146 clause_value_restriction[145]
+                                  -1            -2               
+   147 clause_value_restriction[146]
+                                   0            -0               
+   148 clause_value_restriction[147]
+                                  -1            -2               
+   149 clause_value_restriction[148]
+                                   0            -0               
+   150 clause_value_restriction[149]
+                                  -1            -1               
+   151 clause_value_restriction[150]
+                                   0            -1               
+   152 clause_value_restriction[151]
+                                  -1            -3               
+   153 clause_value_restriction[152]
+                                   0            -0               
+   154 clause_value_restriction[153]
+                                  -1            -2               
+   155 clause_value_restriction[154]
+                                   0            -1               
+   156 clause_value_restriction[155]
+                                   0            -1               
+   157 clause_value_restriction[156]
+                                  -1            -2               
+   158 clause_value_restriction[157]
+                                  -1            -2               
+   159 clause_value_restriction[158]
+                                  -1            -2               
+   160 clause_value_restriction[159]
+                                  -1            -2               
+   161 clause_value_restriction[160]
+                                   1            -0               
+   162 clause_value_restriction[161]
+                                  -1            -1               
+   163 clause_value_restriction[162]
+                                   0            -0               
+   164 clause_value_restriction[163]
+                                   0            -2               
+   165 clause_value_restriction[164]
+                                  -1            -1               
+   166 clause_value_restriction[165]
+                                  -1            -3               
+   167 clause_value_restriction[166]
+                                   0            -2               
+   168 clause_value_restriction[167]
+                                   1            -0               
+   169 clause_value_restriction[168]
+                                  -1            -2               
+   170 clause_value_restriction[169]
+                                  -1            -2               
+   171 clause_value_restriction[170]
+                                   0            -1               
+   172 clause_value_restriction[171]
+                                  -1            -2               
+   173 clause_value_restriction[172]
+                                   0            -0               
+   174 clause_value_restriction[173]
+                                  -1            -3               
+   175 clause_value_restriction[174]
+                                   0            -1               
+   176 clause_value_restriction[175]
+                                   0            -2               
+   177 clause_value_restriction[176]
+                                  -1            -3               
+   178 clause_value_restriction[177]
+                                  -1            -2               
+   179 clause_value_restriction[178]
+                                  -1            -1               
+   180 clause_value_restriction[179]
+                                  -1            -1               
+   181 clause_value_restriction[180]
+                                  -1            -2               
+   182 clause_value_restriction[181]
+                                  -1            -3               
+   183 clause_value_restriction[182]
+                                  -1            -1               
+   184 clause_value_restriction[183]
+                                   0            -1               
+   185 clause_value_restriction[184]
+                                  -1            -2               
+   186 clause_value_restriction[185]
+                                   0            -2               
+   187 clause_value_restriction[186]
+                                  -1            -2               
+   188 clause_value_restriction[187]
+                                   0            -0               
+   189 clause_value_restriction[188]
+                                  -1            -1               
+   190 clause_value_restriction[189]
+                                   0            -2               
+   191 clause_value_restriction[190]
+                                  -1            -1               
+   192 clause_value_restriction[191]
+                                  -1            -2               
+   193 clause_value_restriction[192]
+                                  -1            -3               
+   194 clause_value_restriction[193]
+                                   0            -1               
+   195 clause_value_restriction[194]
+                                  -1            -2               
+   196 clause_value_restriction[195]
+                                  -1            -1               
+   197 clause_value_restriction[196]
+                                   0            -0               
+   198 clause_value_restriction[197]
+                                  -1            -3               
+   199 clause_value_restriction[198]
+                                   0            -1               
+   200 clause_value_restriction[199]
+                                  -1            -3               
+   201 clause_value_restriction[200]
+                                  -1            -2               
+   202 clause_value_restriction[201]
+                                  -1            -1               
+   203 clause_value_restriction[202]
+                                  -1            -2               
+   204 clause_value_restriction[203]
+                                   0            -1               
+   205 clause_value_restriction[204]
+                                  -1            -2               
+   206 clause_value_restriction[205]
+                                  -1            -2               
+   207 clause_value_restriction[206]
+                                  -1            -2               
+   208 clause_value_restriction[207]
+                                  -1            -1               
+   209 clause_value_restriction[208]
+                                  -1            -1               
+   210 clause_value_restriction[209]
+                                   0            -1               
+   211 clause_value_restriction[210]
+                                  -1            -2               
+   212 clause_value_restriction[211]
+                                   0            -2               
+   213 clause_value_restriction[212]
+                                  -1            -2               
+   214 clause_value_restriction[213]
+                                   0            -2               
+   215 clause_value_restriction[214]
+                                  -1            -3               
+   216 clause_value_restriction[215]
+                                   1            -0               
+   217 clause_value_restriction[216]
+                                  -1            -3               
+   218 clause_value_restriction[217]
+                                  -1            -2               
+   219 clause_value_restriction[218]
+                                   1            -0               
+   220 clause_value_restriction[219]
+                                  -1            -2               
+   221 clause_value_restriction[220]
+                                  -1            -1               
+   222 clause_value_restriction[221]
+                                   0            -1               
+   223 clause_value_restriction[222]
+                                  -1            -1               
+   224 clause_value_restriction[223]
+                                   0            -1               
+   225 clause_value_restriction[224]
+                                   1            -0               
+   226 clause_value_restriction[225]
+                                   0            -1               
+   227 clause_value_restriction[226]
+                                  -1            -1               
+   228 clause_value_restriction[227]
+                                  -1            -1               
+   229 clause_value_restriction[228]
+                                  -1            -1               
+   230 clause_value_restriction[229]
+                                   0            -1               
+   231 clause_value_restriction[230]
+                                   0            -1               
+   232 clause_value_restriction[231]
+                                  -1            -2               
+   233 clause_value_restriction[232]
+                                  -1            -1               
+   234 clause_value_restriction[233]
+                                  -1            -2               
+   235 clause_value_restriction[234]
+                                  -1            -1               
+   236 clause_value_restriction[235]
+                                   0            -2               
+   237 clause_value_restriction[236]
+                                   0            -1               
+   238 clause_value_restriction[237]
+                                  -1            -2               
+   239 clause_value_restriction[238]
+                                  -1            -2               
+   240 clause_value_restriction[239]
+                                  -1            -2               
+   241 clause_value_restriction[240]
+                                  -1            -2               
+   242 clause_value_restriction[241]
+                                  -1            -2               
+   243 clause_value_restriction[242]
+                                   0            -2               
+   244 clause_value_restriction[243]
+                                  -1            -2               
+   245 clause_value_restriction[244]
+                                   1            -1               
+   246 clause_value_restriction[245]
+                                  -1            -1               
+   247 clause_value_restriction[246]
+                                   0            -1               
+   248 clause_value_restriction[247]
+                                  -1            -1               
+   249 clause_value_restriction[248]
+                                  -1            -1               
+   250 clause_value_restriction[249]
+                                   0            -0               
+   251 clause_value_restriction[250]
+                                  -1            -2               
+   252 clause_value_restriction[251]
+                                   0            -0               
+   253 clause_value_restriction[252]
+                                   1            -0               
+   254 clause_value_restriction[253]
+                                  -1            -1               
+   255 clause_value_restriction[254]
+                                   0            -2               
+   256 clause_value_restriction[255]
+                                  -1            -1               
+   257 clause_value_restriction[256]
+                                  -1            -3               
+   258 clause_value_restriction[257]
+                                   0            -1               
+   259 clause_value_restriction[258]
+                                  -1            -3               
+   260 clause_value_restriction[259]
+                                  -1            -1               
+   261 clause_value_restriction[260]
+                                  -1            -1               
+   262 clause_value_restriction[261]
+                                  -1            -1               
+   263 clause_value_restriction[262]
+                                  -1            -2               
+   264 clause_value_restriction[263]
+                                   0            -0               
+   265 clause_value_restriction[264]
+                                  -1            -2               
+   266 clause_value_restriction[265]
+                                  -1            -3               
+   267 clause_value_restriction[266]
+                                  -1            -2               
+   268 clause_value_restriction[267]
+                                  -1            -3               
+   269 clause_value_restriction[268]
+                                  -1            -2               
+   270 clause_value_restriction[269]
+                                  -1            -2               
+   271 clause_value_restriction[270]
+                                   1            -0               
+   272 clause_value_restriction[271]
+                                   0            -1               
+   273 clause_value_restriction[272]
+                                  -1            -2               
+   274 clause_value_restriction[273]
+                                   0            -0               
+   275 clause_value_restriction[274]
+                                  -1            -3               
+   276 clause_value_restriction[275]
+                                  -1            -2               
+   277 clause_value_restriction[276]
+                                  -1            -3               
+   278 clause_value_restriction[277]
+                                  -1            -1               
+   279 clause_value_restriction[278]
+                                  -1            -2               
+   280 clause_value_restriction[279]
+                                  -1            -2               
+   281 clause_value_restriction[280]
+                                  -1            -2               
+   282 clause_value_restriction[281]
+                                  -1            -1               
+   283 clause_value_restriction[282]
+                                   0            -0               
+   284 clause_value_restriction[283]
+                                  -1            -3               
+   285 clause_value_restriction[284]
+                                  -1            -3               
+   286 clause_value_restriction[285]
+                                  -1            -1               
+   287 clause_value_restriction[286]
+                                   0            -1               
+   288 clause_value_restriction[287]
+                                  -1            -3               
+   289 clause_value_restriction[288]
+                                   0            -1               
+   290 clause_value_restriction[289]
+                                   0            -1               
+   291 clause_value_restriction[290]
+                                  -1            -2               
+   292 clause_value_restriction[291]
+                                  -1            -1               
+   293 clause_value_restriction[292]
+                                   0            -0               
+   294 clause_value_restriction[293]
+                                  -1            -2               
+   295 clause_value_restriction[294]
+                                   0            -1               
+   296 clause_value_restriction[295]
+                                   1            -1               
+   297 clause_value_restriction[296]
+                                   0            -0               
+   298 clause_value_restriction[297]
+                                  -1            -2               
+   299 clause_value_restriction[298]
+                                  -1            -2               
+   300 clause_value_restriction[299]
+                                   1            -0               
+   301 clause_value_restriction[300]
+                                  -1            -1               
+   302 clause_value_restriction[301]
+                                   0            -0               
+   303 clause_value_restriction[302]
+                                  -1            -1               
+   304 clause_value_restriction[303]
+                                  -1            -2               
+   305 clause_value_restriction[304]
+                                  -1            -3               
+   306 clause_value_restriction[305]
+                                  -1            -1               
+   307 clause_value_restriction[306]
+                                  -1            -2               
+   308 clause_value_restriction[307]
+                                  -1            -1               
+   309 clause_value_restriction[308]
+                                  -1            -3               
+   310 clause_value_restriction[309]
+                                   0            -2               
+   311 clause_value_restriction[310]
+                                   0            -0               
+   312 clause_value_restriction[311]
+                                  -1            -1               
+   313 clause_value_restriction[312]
+                                   0            -0               
+   314 clause_value_restriction[313]
+                                  -1            -1               
+   315 clause_value_restriction[314]
+                                   0            -1               
+   316 clause_value_restriction[315]
+                                  -1            -3               
+   317 clause_value_restriction[316]
+                                  -1            -3               
+   318 clause_value_restriction[317]
+                                  -1            -3               
+   319 clause_value_restriction[318]
+                                   0            -2               
+   320 clause_value_restriction[319]
+                                  -1            -1               
+   321 clause_value_restriction[320]
+                                  -1            -2               
+   322 clause_value_restriction[321]
+                                   0            -0               
+   323 clause_value_restriction[322]
+                                  -1            -1               
+   324 clause_value_restriction[323]
+                                  -1            -3               
+   325 clause_value_restriction[324]
+                                   0            -2               
+   326 clause_value_restriction[325]
+                                  -1            -2               
+   327 clause_value_restriction[326]
+                                   0            -0               
+   328 clause_value_restriction[327]
+                                  -1            -2               
+   329 clause_value_restriction[328]
+                                  -1            -2               
+   330 clause_value_restriction[329]
+                                  -1            -1               
+   331 clause_value_restriction[330]
+                                  -1            -2               
+   332 clause_value_restriction[331]
+                                  -1            -1               
+   333 clause_value_restriction[332]
+                                   0            -1               
+   334 clause_value_restriction[333]
+                                  -1            -1               
+   335 clause_value_restriction[334]
+                                  -1            -1               
+   336 clause_value_restriction[335]
+                                   0            -1               
+   337 clause_value_restriction[336]
+                                  -1            -1               
+   338 clause_value_restriction[337]
+                                  -1            -2               
+   339 clause_value_restriction[338]
+                                  -1            -1               
+   340 clause_value_restriction[339]
+                                  -1            -2               
+   341 clause_value_restriction[340]
+                                  -1            -1               
+   342 clause_value_restriction[341]
+                                  -1            -2               
+   343 clause_value_restriction[342]
+                                  -1            -1               
+   344 clause_value_restriction[343]
+                                  -1            -2               
+   345 clause_value_restriction[344]
+                                  -1            -1               
+   346 clause_value_restriction[345]
+                                   0            -0               
+   347 clause_value_restriction[346]
+                                  -1            -1               
+   348 clause_value_restriction[347]
+                                  -1            -1               
+   349 clause_value_restriction[348]
+                                  -1            -1               
+   350 clause_value_restriction[349]
+                                   0            -0               
+   351 clause_value_restriction[350]
+                                  -1            -1               
+   352 clause_value_restriction[351]
+                                   0            -1               
+   353 clause_value_restriction[352]
+                                   0            -0               
+   354 clause_value_restriction[353]
+                                  -1            -1               
+   355 clause_value_restriction[354]
+                                  -1            -3               
+   356 clause_value_restriction[355]
+                                  -1            -2               
+   357 clause_value_restriction[356]
+                                  -1            -1               
+   358 clause_value_restriction[357]
+                                  -1            -1               
+   359 clause_value_restriction[358]
+                                  -1            -2               
+   360 clause_value_restriction[359]
+                                  -1            -2               
+   361 clause_value_restriction[360]
+                                  -1            -3               
+   362 clause_value_restriction[361]
+                                  -1            -1               
+   363 clause_value_restriction[362]
+                                  -1            -2               
+   364 clause_value_restriction[363]
+                                  -1            -2               
+   365 clause_value_restriction[364]
+                                   0            -1               
+   366 clause_value_restriction[365]
+                                  -1            -1               
+   367 clause_value_restriction[366]
+                                  -1            -1               
+   368 clause_value_restriction[367]
+                                  -1            -3               
+   369 clause_value_restriction[368]
+                                  -1            -2               
+   370 clause_value_restriction[369]
+                                  -1            -1               
+   371 clause_value_restriction[370]
+                                  -1            -2               
+   372 clause_value_restriction[371]
+                                  -1            -2               
+   373 clause_value_restriction[372]
+                                  -1            -3               
+   374 clause_value_restriction[373]
+                                   0            -1               
+   375 clause_value_restriction[374]
+                                  -1            -1               
+   376 clause_value_restriction[375]
+                                  -1            -3               
+   377 clause_value_restriction[376]
+                                  -1            -2               
+   378 clause_value_restriction[377]
+                                  -1            -2               
+   379 clause_value_restriction[378]
+                                  -1            -3               
+   380 clause_value_restriction[379]
+                                  -1            -2               
+   381 clause_value_restriction[380]
+                                   0            -0               
+   382 clause_value_restriction[381]
+                                  -1            -1               
+   383 clause_value_restriction[382]
+                                  -1            -2               
+   384 clause_value_restriction[383]
+                                   0            -2               
+   385 clause_value_restriction[384]
+                                  -1            -1               
+   386 clause_value_restriction[385]
+                                  -1            -3               
+   387 clause_value_restriction[386]
+                                   0            -1               
+   388 clause_value_restriction[387]
+                                  -1            -2               
+   389 clause_value_restriction[388]
+                                   0            -1               
+   390 clause_value_restriction[389]
+                                   0            -1               
+   391 clause_value_restriction[390]
+                                   0            -1               
+   392 clause_value_restriction[391]
+                                  -1            -2               
+   393 clause_value_restriction[392]
+                                   0            -2               
+   394 clause_value_restriction[393]
+                                   1            -0               
+   395 clause_value_restriction[394]
+                                  -1            -1               
+   396 clause_value_restriction[395]
+                                  -1            -2               
+   397 clause_value_restriction[396]
+                                   0            -0               
+   398 clause_value_restriction[397]
+                                  -1            -1               
+   399 clause_value_restriction[398]
+                                   0            -1               
+   400 clause_value_restriction[399]
+                                  -1            -3               
+   401 clause_value_restriction[400]
+                                   0            -1               
+   402 clause_value_restriction[401]
+                                  -1            -3               
+   403 clause_value_restriction[402]
+                                   0            -0               
+   404 clause_value_restriction[403]
+                                   0            -0               
+   405 clause_value_restriction[404]
+                                   0            -1               
+   406 clause_value_restriction[405]
+                                  -1            -3               
+   407 clause_value_restriction[406]
+                                  -1            -2               
+   408 clause_value_restriction[407]
+                                   0            -1               
+   409 clause_value_restriction[408]
+                                  -1            -2               
+   410 clause_value_restriction[409]
+                                  -1            -3               
+   411 clause_value_restriction[410]
+                                  -1            -1               
+   412 clause_value_restriction[411]
+                                  -1            -2               
+   413 clause_value_restriction[412]
+                                  -1            -2               
+   414 clause_value_restriction[413]
+                                   0            -1               
+   415 clause_value_restriction[414]
+                                  -1            -2               
+   416 clause_value_restriction[415]
+                                  -1            -1               
+   417 clause_value_restriction[416]
+                                  -1            -1               
+   418 clause_value_restriction[417]
+                                   0            -0               
+   419 clause_value_restriction[418]
+                                  -1            -2               
+   420 clause_value_restriction[419]
+                                  -1            -2               
+   421 clause_value_restriction[420]
+                                  -1            -3               
+   422 clause_value_restriction[421]
+                                   0            -0               
+   423 clause_value_restriction[422]
+                                  -1            -2               
+   424 clause_value_restriction[423]
+                                  -1            -1               
+   425 clause_value_restriction[424]
+                                  -1            -1               
+   426 clause_value_restriction[425]
+                                   1            -0               
+   427 clause_value_restriction[426]
+                                  -1            -2               
+   428 clause_value_restriction[427]
+                                  -1            -2               
+   429 clause_value_restriction[428]
+                                   0            -1               
+   430 clause_value_restriction[429]
+                                  -1            -1               
+   431 clause_value_restriction[430]
+                                   0            -1               
+   432 clause_value_restriction[431]
+                                   0            -0               
+   433 clause_value_restriction[432]
+                                   0            -0               
+   434 clause_value_restriction[433]
+                                   0            -0               
+   435 clause_value_restriction[434]
+                                   0            -0               
+   436 clause_value_restriction[435]
+                                  -1            -2               
+   437 clause_value_restriction[436]
+                                  -1            -2               
+   438 clause_value_restriction[437]
+                                   1            -0               
+   439 clause_value_restriction[438]
+                                   0            -0               
+   440 clause_value_restriction[439]
+                                  -1            -2               
+   441 clause_value_restriction[440]
+                                  -1            -2               
+   442 clause_value_restriction[441]
+                                   0            -2               
+   443 clause_value_restriction[442]
+                                  -1            -2               
+   444 clause_value_restriction[443]
+                                  -1            -1               
+   445 clause_value_restriction[444]
+                                  -1            -2               
+   446 clause_value_restriction[445]
+                                  -1            -1               
+   447 clause_value_restriction[446]
+                                  -1            -3               
+   448 clause_value_restriction[447]
+                                   0            -0               
+   449 clause_value_restriction[448]
+                                   0            -1               
+   450 clause_value_restriction[449]
+                                  -1            -2               
+   451 clause_value_restriction[450]
+                                  -1            -2               
+   452 clause_value_restriction[451]
+                                  -1            -2               
+   453 clause_value_restriction[452]
+                                  -1            -2               
+   454 clause_value_restriction[453]
+                                  -1            -2               
+   455 clause_value_restriction[454]
+                                  -1            -2               
+   456 clause_value_restriction[455]
+                                   1            -1               
+   457 clause_value_restriction[456]
+                                  -1            -3               
+   458 clause_value_restriction[457]
+                                   0            -0               
+   459 clause_value_restriction[458]
+                                   1            -1               
+   460 clause_value_restriction[459]
+                                  -1            -2               
+   461 clause_value_restriction[460]
+                                  -1            -2               
+   462 clause_value_restriction[461]
+                                  -1            -2               
+   463 clause_value_restriction[462]
+                                  -1            -1               
+   464 clause_value_restriction[463]
+                                  -1            -3               
+   465 clause_value_restriction[464]
+                                  -1            -2               
+   466 clause_value_restriction[465]
+                                   0            -2               
+   467 clause_value_restriction[466]
+                                   0            -1               
+   468 clause_value_restriction[467]
+                                  -1            -1               
+   469 clause_value_restriction[468]
+                                  -1            -2               
+   470 clause_value_restriction[469]
+                                   0            -0               
+   471 clause_value_restriction[470]
+                                  -1            -2               
+   472 clause_value_restriction[471]
+                                  -1            -3               
+   473 clause_value_restriction[472]
+                                  -1            -2               
+   474 clause_value_restriction[473]
+                                   2            -0               
+   475 clause_value_restriction[474]
+                                  -1            -2               
+   476 clause_value_restriction[475]
+                                   0            -1               
+   477 clause_value_restriction[476]
+                                   0            -1               
+   478 clause_value_restriction[477]
+                                  -1            -2               
+   479 clause_value_restriction[478]
+                                  -1            -2               
+   480 clause_value_restriction[479]
+                                  -1            -1               
+   481 clause_value_restriction[480]
+                                  -1            -2               
+   482 clause_value_restriction[481]
+                                  -1            -1               
+   483 clause_value_restriction[482]
+                                   1            -0               
+   484 clause_value_restriction[483]
+                                  -1            -1               
+   485 clause_value_restriction[484]
+                                  -1            -1               
+   486 clause_value_restriction[485]
+                                   0            -2               
+   487 clause_value_restriction[486]
+                                   0            -0               
+   488 clause_value_restriction[487]
+                                   0            -1               
+   489 clause_value_restriction[488]
+                                   0            -1               
+   490 clause_value_restriction[489]
+                                  -1            -2               
+   491 clause_value_restriction[490]
+                                   0            -2               
+   492 clause_value_restriction[491]
+                                   0            -0               
+   493 clause_value_restriction[492]
+                                  -1            -1               
+   494 clause_value_restriction[493]
+                                  -1            -2               
+   495 clause_value_restriction[494]
+                                  -1            -3               
+   496 clause_value_restriction[495]
+                                  -1            -1               
+   497 clause_value_restriction[496]
+                                  -1            -2               
+   498 clause_value_restriction[497]
+                                  -1            -2               
+   499 clause_value_restriction[498]
+                                  -1            -3               
+   500 clause_value_restriction[499]
+                                  -1            -1               
+   501 clause_value_restriction[500]
+                                   1            -1               
+   502 clause_value_restriction[501]
+                                   1            -0               
+   503 clause_value_restriction[502]
+                                  -1            -1               
+   504 clause_value_restriction[503]
+                                  -1            -2               
+   505 clause_value_restriction[504]
+                                   0            -1               
+   506 clause_value_restriction[505]
+                                   1            -0               
+   507 clause_value_restriction[506]
+                                  -1            -2               
+   508 clause_value_restriction[507]
+                                   0            -0               
+   509 clause_value_restriction[508]
+                                  -1            -2               
+   510 clause_value_restriction[509]
+                                   0            -2               
+   511 clause_value_restriction[510]
+                                   0            -1               
+   512 clause_value_restriction[511]
+                                  -1            -1               
+   513 clause_value_restriction[512]
+                                  -1            -3               
+   514 clause_value_restriction[513]
+                                  -1            -1               
+   515 clause_value_restriction[514]
+                                   1            -1               
+   516 clause_value_restriction[515]
+                                   0            -1               
+   517 clause_value_restriction[516]
+                                  -1            -3               
+   518 clause_value_restriction[517]
+                                   1            -0               
+   519 clause_value_restriction[518]
+                                  -1            -2               
+   520 clause_value_restriction[519]
+                                  -1            -2               
+   521 clause_value_restriction[520]
+                                   1            -1               
+   522 clause_value_restriction[521]
+                                  -1            -2               
+   523 clause_value_restriction[522]
+                                  -1            -1               
+   524 clause_value_restriction[523]
+                                   0            -0               
+   525 clause_value_restriction[524]
+                                   0            -2               
+   526 clause_value_restriction[525]
+                                   0            -1               
+   527 clause_value_restriction[526]
+                                   1            -0               
+   528 clause_value_restriction[527]
+                                  -1            -2               
+   529 clause_value_restriction[528]
+                                  -1            -1               
+   530 clause_value_restriction[529]
+                                   0            -1               
+   531 clause_value_restriction[530]
+                                  -1            -2               
+   532 clause_value_restriction[531]
+                                  -1            -2               
+   533 clause_value_restriction[532]
+                                   0            -1               
+   534 clause_value_restriction[533]
+                                   0            -1               
+   535 clause_value_restriction[534]
+                                   0            -2               
+   536 clause_value_restriction[535]
+                                  -1            -2               
+   537 clause_value_restriction[536]
+                                  -1            -1               
+   538 clause_value_restriction[537]
+                                   1            -0               
+   539 clause_value_restriction[538]
+                                  -1            -2               
+   540 clause_value_restriction[539]
+                                  -1            -2               
+   541 clause_value_restriction[540]
+                                  -1            -2               
+   542 clause_value_restriction[541]
+                                  -1            -3               
+   543 clause_value_restriction[542]
+                                  -1            -2               
+   544 clause_value_restriction[543]
+                                  -1            -1               
+   545 clause_value_restriction[544]
+                                  -1            -2               
+   546 clause_value_restriction[545]
+                                  -1            -3               
+   547 clause_value_restriction[546]
+                                   0            -0               
+   548 clause_value_restriction[547]
+                                   1            -0               
+   549 clause_value_restriction[548]
+                                   0            -0               
+   550 clause_value_restriction[549]
+                                  -1            -1               
+   551 clause_value_restriction[550]
+                                  -1            -3               
+   552 clause_value_restriction[551]
+                                  -1            -3               
+   553 clause_value_restriction[552]
+                                  -1            -3               
+   554 clause_value_restriction[553]
+                                  -1            -2               
+   555 clause_value_restriction[554]
+                                  -1            -2               
+   556 clause_value_restriction[555]
+                                  -1            -3               
+   557 clause_value_restriction[556]
+                                   0            -2               
+   558 clause_value_restriction[557]
+                                  -1            -1               
+   559 clause_value_restriction[558]
+                                   0            -1               
+   560 clause_value_restriction[559]
+                                  -1            -1               
+   561 clause_value_restriction[560]
+                                   0            -1               
+   562 clause_value_restriction[561]
+                                  -1            -2               
+   563 clause_value_restriction[562]
+                                   0            -2               
+   564 clause_value_restriction[563]
+                                   0            -1               
+   565 clause_value_restriction[564]
+                                   0            -1               
+   566 clause_value_restriction[565]
+                                  -1            -2               
+   567 clause_value_restriction[566]
+                                  -1            -2               
+   568 clause_value_restriction[567]
+                                   0            -0               
+   569 clause_value_restriction[568]
+                                  -1            -2               
+   570 clause_value_restriction[569]
+                                   0            -0               
+   571 clause_value_restriction[570]
+                                  -1            -1               
+   572 clause_value_restriction[571]
+                                  -1            -1               
+   573 clause_value_restriction[572]
+                                   1            -1               
+   574 clause_value_restriction[573]
+                                  -1            -2               
+   575 clause_value_restriction[574]
+                                   0            -2               
+   576 clause_value_restriction[575]
+                                  -1            -2               
+   577 clause_value_restriction[576]
+                                   1            -1               
+   578 clause_value_restriction[577]
+                                  -1            -2               
+   579 clause_value_restriction[578]
+                                  -1            -1               
+   580 clause_value_restriction[579]
+                                   0            -0               
+   581 clause_value_restriction[580]
+                                   0            -1               
+   582 clause_value_restriction[581]
+                                   0            -1               
+   583 clause_value_restriction[582]
+                                   0            -0               
+   584 clause_value_restriction[583]
+                                  -1            -2               
+   585 clause_value_restriction[584]
+                                  -1            -2               
+   586 clause_value_restriction[585]
+                                   0            -2               
+   587 clause_value_restriction[586]
+                                  -1            -2               
+   588 clause_value_restriction[587]
+                                   0            -2               
+   589 clause_value_restriction[588]
+                                  -1            -2               
+   590 clause_value_restriction[589]
+                                  -1            -1               
+   591 clause_value_restriction[590]
+                                  -1            -1               
+   592 clause_value_restriction[591]
+                                  -1            -2               
+   593 clause_value_restriction[592]
+                                  -1            -3               
+   594 clause_value_restriction[593]
+                                   0            -2               
+   595 clause_value_restriction[594]
+                                   0            -2               
+   596 clause_value_restriction[595]
+                                  -1            -3               
+   597 clause_value_restriction[596]
+                                  -1            -1               
+   598 clause_value_restriction[597]
+                                   0            -1               
+   599 clause_value_restriction[598]
+                                  -1            -1               
+   600 clause_value_restriction[599]
+                                  -1            -1               
+   601 clause_value_restriction[600]
+                                  -1            -1               
+   602 clause_value_restriction[601]
+                                  -1            -1               
+   603 clause_value_restriction[602]
+                                   1            -0               
+   604 clause_value_restriction[603]
+                                   0            -1               
+   605 clause_value_restriction[604]
+                                  -1            -2               
+   606 clause_value_restriction[605]
+                                   0            -1               
+   607 clause_value_restriction[606]
+                                   0            -1               
+   608 clause_value_restriction[607]
+                                  -1            -3               
+   609 clause_value_restriction[608]
+                                   0            -1               
+   610 clause_value_restriction[609]
+                                  -1            -1               
+   611 clause_value_restriction[610]
+                                   2            -0               
+   612 clause_value_restriction[611]
+                                  -1            -3               
+   613 clause_value_restriction[612]
+                                   0            -2               
+   614 clause_value_restriction[613]
+                                  -1            -1               
+   615 clause_value_restriction[614]
+                                   1            -0               
+   616 clause_value_restriction[615]
+                                   0            -1               
+   617 clause_value_restriction[616]
+                                   0            -0               
+   618 clause_value_restriction[617]
+                                   0            -0               
+   619 clause_value_restriction[618]
+                                  -1            -2               
+   620 clause_value_restriction[619]
+                                   0            -0               
+   621 clause_value_restriction[620]
+                                  -1            -1               
+   622 clause_value_restriction[621]
+                                  -1            -2               
+   623 clause_value_restriction[622]
+                                  -1            -3               
+   624 clause_value_restriction[623]
+                                  -1            -1               
+   625 clause_value_restriction[624]
+                                  -1            -2               
+   626 clause_value_restriction[625]
+                                  -1            -2               
+   627 clause_value_restriction[626]
+                                  -1            -2               
+   628 clause_value_restriction[627]
+                                   0            -2               
+   629 clause_value_restriction[628]
+                                   0            -0               
+   630 clause_value_restriction[629]
+                                  -1            -2               
+   631 clause_value_restriction[630]
+                                  -1            -2               
+   632 clause_value_restriction[631]
+                                  -1            -3               
+   633 clause_value_restriction[632]
+                                  -1            -1               
+   634 clause_value_restriction[633]
+                                  -1            -1               
+   635 clause_value_restriction[634]
+                                  -1            -1               
+   636 clause_value_restriction[635]
+                                  -1            -2               
+   637 clause_value_restriction[636]
+                                  -1            -2               
+   638 clause_value_restriction[637]
+                                  -1            -3               
+   639 clause_value_restriction[638]
+                                  -1            -1               
+   640 clause_value_restriction[639]
+                                   0            -1               
+   641 clause_value_restriction[640]
+                                   0            -2               
+   642 clause_value_restriction[641]
+                                   1            -1               
+   643 clause_value_restriction[642]
+                                   0            -1               
+   644 clause_value_restriction[643]
+                                  -1            -3               
+   645 clause_value_restriction[644]
+                                   0            -1               
+   646 clause_value_restriction[645]
+                                  -1            -3               
+   647 clause_value_restriction[646]
+                                   1            -1               
+   648 clause_value_restriction[647]
+                                   0            -0               
+   649 clause_value_restriction[648]
+                                  -1            -2               
+   650 clause_value_restriction[649]
+                                  -1            -2               
+   651 clause_value_restriction[650]
+                                  -1            -2               
+   652 clause_value_restriction[651]
+                                  -1            -1               
+   653 clause_value_restriction[652]
+                                   0            -1               
+   654 clause_value_restriction[653]
+                                   1            -0               
+   655 clause_value_restriction[654]
+                                   0            -1               
+   656 clause_value_restriction[655]
+                                  -1            -2               
+   657 clause_value_restriction[656]
+                                  -1            -2               
+   658 clause_value_restriction[657]
+                                   0            -0               
+   659 clause_value_restriction[658]
+                                   0            -2               
+   660 clause_value_restriction[659]
+                                  -1            -1               
+   661 clause_value_restriction[660]
+                                   0            -0               
+   662 clause_value_restriction[661]
+                                  -1            -1               
+   663 clause_value_restriction[662]
+                                   0            -1               
+   664 clause_value_restriction[663]
+                                  -1            -2               
+   665 clause_value_restriction[664]
+                                  -1            -3               
+   666 clause_value_restriction[665]
+                                  -1            -1               
+   667 clause_value_restriction[666]
+                                   0            -2               
+   668 clause_value_restriction[667]
+                                   0            -0               
+   669 clause_value_restriction[668]
+                                  -1            -2               
+   670 clause_value_restriction[669]
+                                   1            -0               
+   671 clause_value_restriction[670]
+                                   0            -2               
+   672 clause_value_restriction[671]
+                                   0            -0               
+   673 clause_value_restriction[672]
+                                   0            -1               
+   674 clause_value_restriction[673]
+                                  -1            -2               
+   675 clause_value_restriction[674]
+                                  -1            -1               
+   676 clause_value_restriction[675]
+                                  -1            -1               
+   677 clause_value_restriction[676]
+                                   0            -0               
+   678 clause_value_restriction[677]
+                                   0            -1               
+   679 clause_value_restriction[678]
+                                   0            -2               
+   680 clause_value_restriction[679]
+                                   0            -1               
+   681 clause_value_restriction[680]
+                                  -1            -2               
+   682 clause_value_restriction[681]
+                                  -1            -1               
+   683 clause_value_restriction[682]
+                                  -1            -1               
+   684 clause_value_restriction[683]
+                                  -1            -1               
+   685 clause_value_restriction[684]
+                                  -1            -2               
+   686 clause_value_restriction[685]
+                                   0            -0               
+   687 clause_value_restriction[686]
+                                   0            -1               
+   688 clause_value_restriction[687]
+                                   0            -1               
+   689 clause_value_restriction[688]
+                                  -1            -3               
+   690 clause_value_restriction[689]
+                                  -1            -1               
+   691 clause_value_restriction[690]
+                                  -1            -1               
+   692 clause_value_restriction[691]
+                                   0            -1               
+   693 clause_value_restriction[692]
+                                   0            -1               
+   694 clause_value_restriction[693]
+                                  -1            -1               
+   695 clause_value_restriction[694]
+                                   0            -1               
+   696 clause_value_restriction[695]
+                                   0            -0               
+   697 clause_value_restriction[696]
+                                   0            -1               
+   698 clause_value_restriction[697]
+                                   0            -2               
+   699 clause_value_restriction[698]
+                                   0            -0               
+   700 clause_value_restriction[699]
+                                  -1            -1               
+   701 clause_value_restriction[700]
+                                   0            -2               
+   702 clause_value_restriction[701]
+                                  -1            -2               
+   703 clause_value_restriction[702]
+                                  -1            -3               
+   704 clause_value_restriction[703]
+                                  -1            -1               
+   705 clause_value_restriction[704]
+                                   0            -2               
+   706 clause_value_restriction[705]
+                                  -1            -1               
+   707 clause_value_restriction[706]
+                                   0            -1               
+   708 clause_value_restriction[707]
+                                  -1            -2               
+   709 clause_value_restriction[708]
+                                  -1            -2               
+   710 clause_value_restriction[709]
+                                   0            -2               
+   711 clause_value_restriction[710]
+                                   0            -1               
+   712 clause_value_restriction[711]
+                                  -1            -2               
+   713 clause_value_restriction[712]
+                                   0            -1               
+   714 clause_value_restriction[713]
+                                   0            -0               
+   715 clause_value_restriction[714]
+                                   0            -1               
+   716 clause_value_restriction[715]
+                                  -1            -1               
+   717 clause_value_restriction[716]
+                                  -1            -1               
+   718 clause_value_restriction[717]
+                                   0            -1               
+   719 clause_value_restriction[718]
+                                  -1            -3               
+   720 clause_value_restriction[719]
+                                  -1            -1               
+   721 clause_value_restriction[720]
+                                   0            -0               
+   722 clause_value_restriction[721]
+                                  -1            -2               
+   723 clause_value_restriction[722]
+                                  -1            -1               
+   724 clause_value_restriction[723]
+                                  -1            -1               
+   725 clause_value_restriction[724]
+                                  -1            -3               
+   726 clause_value_restriction[725]
+                                  -1            -1               
+   727 clause_value_restriction[726]
+                                  -1            -1               
+   728 clause_value_restriction[727]
+                                   0            -0               
+   729 clause_value_restriction[728]
+                                  -1            -1               
+   730 clause_value_restriction[729]
+                                   2            -0               
+   731 clause_value_restriction[730]
+                                   0            -1               
+   732 clause_value_restriction[731]
+                                  -1            -2               
+   733 clause_value_restriction[732]
+                                  -1            -2               
+   734 clause_value_restriction[733]
+                                  -1            -3               
+   735 clause_value_restriction[734]
+                                   0            -2               
+   736 clause_value_restriction[735]
+                                   0            -1               
+   737 clause_value_restriction[736]
+                                  -1            -2               
+   738 clause_value_restriction[737]
+                                  -1            -1               
+   739 clause_value_restriction[738]
+                                  -1            -2               
+   740 clause_value_restriction[739]
+                                  -1            -1               
+   741 clause_value_restriction[740]
+                                   0            -0               
+   742 clause_value_restriction[741]
+                                   0            -2               
+   743 clause_value_restriction[742]
+                                  -1            -2               
+   744 clause_value_restriction[743]
+                                  -1            -3               
+   745 clause_value_restriction[744]
+                                  -1            -1               
+   746 clause_value_restriction[745]
+                                   0            -2               
+   747 clause_value_restriction[746]
+                                   0            -0               
+   748 clause_value_restriction[747]
+                                  -1            -2               
+   749 clause_value_restriction[748]
+                                   1            -0               
+   750 clause_value_restriction[749]
+                                  -1            -3               
+   751 clause_value_restriction[750]
+                                  -1            -2               
+   752 clause_value_restriction[751]
+                                   0            -0               
+   753 clause_value_restriction[752]
+                                  -1            -2               
+   754 clause_value_restriction[753]
+                                  -1            -1               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 clause_value[1]
+                    *              1             0             1 
+     2 clause_value[2]
+                    *              1             0             1 
+     3 clause_value[3]
+                    *              1             0             1 
+     4 clause_value[4]
+                    *              1             0             1 
+     5 clause_value[5]
+                    *              1             0             1 
+     6 clause_value[6]
+                    *              1             0             1 
+     7 clause_value[7]
+                    *              1             0             1 
+     8 clause_value[8]
+                    *              1             0             1 
+     9 clause_value[9]
+                    *              1             0             1 
+    10 clause_value[10]
+                    *              1             0             1 
+    11 clause_value[11]
+                    *              1             0             1 
+    12 clause_value[12]
+                    *              1             0             1 
+    13 clause_value[13]
+                    *              1             0             1 
+    14 clause_value[14]
+                    *              1             0             1 
+    15 clause_value[15]
+                    *              1             0             1 
+    16 clause_value[16]
+                    *              1             0             1 
+    17 clause_value[17]
+                    *              1             0             1 
+    18 clause_value[18]
+                    *              1             0             1 
+    19 clause_value[19]
+                    *              1             0             1 
+    20 clause_value[20]
+                    *              1             0             1 
+    21 clause_value[21]
+                    *              1             0             1 
+    22 clause_value[22]
+                    *              1             0             1 
+    23 clause_value[23]
+                    *              1             0             1 
+    24 clause_value[24]
+                    *              1             0             1 
+    25 clause_value[25]
+                    *              1             0             1 
+    26 clause_value[26]
+                    *              1             0             1 
+    27 clause_value[27]
+                    *              1             0             1 
+    28 clause_value[28]
+                    *              1             0             1 
+    29 clause_value[29]
+                    *              1             0             1 
+    30 clause_value[30]
+                    *              1             0             1 
+    31 clause_value[31]
+                    *              1             0             1 
+    32 clause_value[32]
+                    *              1             0             1 
+    33 clause_value[33]
+                    *              1             0             1 
+    34 clause_value[34]
+                    *              1             0             1 
+    35 clause_value[35]
+                    *              1             0             1 
+    36 clause_value[36]
+                    *              1             0             1 
+    37 clause_value[37]
+                    *              1             0             1 
+    38 clause_value[38]
+                    *              1             0             1 
+    39 clause_value[39]
+                    *              1             0             1 
+    40 clause_value[40]
+                    *              1             0             1 
+    41 clause_value[41]
+                    *              1             0             1 
+    42 clause_value[42]
+                    *              1             0             1 
+    43 clause_value[43]
+                    *              1             0             1 
+    44 clause_value[44]
+                    *              1             0             1 
+    45 clause_value[45]
+                    *              1             0             1 
+    46 clause_value[46]
+                    *              1             0             1 
+    47 clause_value[47]
+                    *              1             0             1 
+    48 clause_value[48]
+                    *              1             0             1 
+    49 clause_value[49]
+                    *              1             0             1 
+    50 clause_value[50]
+                    *              1             0             1 
+    51 clause_value[51]
+                    *              1             0             1 
+    52 clause_value[52]
+                    *              1             0             1 
+    53 clause_value[53]
+                    *              1             0             1 
+    54 clause_value[54]
+                    *              1             0             1 
+    55 clause_value[55]
+                    *              1             0             1 
+    56 clause_value[56]
+                    *              1             0             1 
+    57 clause_value[57]
+                    *              1             0             1 
+    58 clause_value[58]
+                    *              1             0             1 
+    59 clause_value[59]
+                    *              1             0             1 
+    60 clause_value[60]
+                    *              1             0             1 
+    61 clause_value[61]
+                    *              1             0             1 
+    62 clause_value[62]
+                    *              1             0             1 
+    63 clause_value[63]
+                    *              1             0             1 
+    64 clause_value[64]
+                    *              1             0             1 
+    65 clause_value[65]
+                    *              1             0             1 
+    66 clause_value[66]
+                    *              1             0             1 
+    67 clause_value[67]
+                    *              1             0             1 
+    68 clause_value[68]
+                    *              1             0             1 
+    69 clause_value[69]
+                    *              1             0             1 
+    70 clause_value[70]
+                    *              1             0             1 
+    71 clause_value[71]
+                    *              1             0             1 
+    72 clause_value[72]
+                    *              1             0             1 
+    73 clause_value[73]
+                    *              1             0             1 
+    74 clause_value[74]
+                    *              1             0             1 
+    75 clause_value[75]
+                    *              1             0             1 
+    76 clause_value[76]
+                    *              1             0             1 
+    77 clause_value[77]
+                    *              1             0             1 
+    78 clause_value[78]
+                    *              1             0             1 
+    79 clause_value[79]
+                    *              1             0             1 
+    80 clause_value[80]
+                    *              1             0             1 
+    81 clause_value[81]
+                    *              1             0             1 
+    82 clause_value[82]
+                    *              1             0             1 
+    83 clause_value[83]
+                    *              1             0             1 
+    84 clause_value[84]
+                    *              1             0             1 
+    85 clause_value[85]
+                    *              1             0             1 
+    86 clause_value[86]
+                    *              1             0             1 
+    87 clause_value[87]
+                    *              1             0             1 
+    88 clause_value[88]
+                    *              1             0             1 
+    89 clause_value[89]
+                    *              1             0             1 
+    90 clause_value[90]
+                    *              1             0             1 
+    91 clause_value[91]
+                    *              1             0             1 
+    92 clause_value[92]
+                    *              1             0             1 
+    93 clause_value[93]
+                    *              1             0             1 
+    94 clause_value[94]
+                    *              1             0             1 
+    95 clause_value[95]
+                    *              1             0             1 
+    96 clause_value[96]
+                    *              1             0             1 
+    97 clause_value[97]
+                    *              1             0             1 
+    98 clause_value[98]
+                    *              1             0             1 
+    99 clause_value[99]
+                    *              1             0             1 
+   100 clause_value[100]
+                    *              1             0             1 
+   101 clause_value[101]
+                    *              1             0             1 
+   102 clause_value[102]
+                    *              1             0             1 
+   103 clause_value[103]
+                    *              1             0             1 
+   104 clause_value[104]
+                    *              1             0             1 
+   105 clause_value[105]
+                    *              1             0             1 
+   106 clause_value[106]
+                    *              1             0             1 
+   107 clause_value[107]
+                    *              1             0             1 
+   108 clause_value[108]
+                    *              1             0             1 
+   109 clause_value[109]
+                    *              1             0             1 
+   110 clause_value[110]
+                    *              1             0             1 
+   111 clause_value[111]
+                    *              1             0             1 
+   112 clause_value[112]
+                    *              1             0             1 
+   113 clause_value[113]
+                    *              1             0             1 
+   114 clause_value[114]
+                    *              1             0             1 
+   115 clause_value[115]
+                    *              1             0             1 
+   116 clause_value[116]
+                    *              1             0             1 
+   117 clause_value[117]
+                    *              1             0             1 
+   118 clause_value[118]
+                    *              1             0             1 
+   119 clause_value[119]
+                    *              1             0             1 
+   120 clause_value[120]
+                    *              1             0             1 
+   121 clause_value[121]
+                    *              1             0             1 
+   122 clause_value[122]
+                    *              1             0             1 
+   123 clause_value[123]
+                    *              1             0             1 
+   124 clause_value[124]
+                    *              1             0             1 
+   125 clause_value[125]
+                    *              1             0             1 
+   126 clause_value[126]
+                    *              1             0             1 
+   127 clause_value[127]
+                    *              1             0             1 
+   128 clause_value[128]
+                    *              1             0             1 
+   129 clause_value[129]
+                    *              1             0             1 
+   130 clause_value[130]
+                    *              1             0             1 
+   131 clause_value[131]
+                    *              1             0             1 
+   132 clause_value[132]
+                    *              1             0             1 
+   133 clause_value[133]
+                    *              1             0             1 
+   134 clause_value[134]
+                    *              1             0             1 
+   135 clause_value[135]
+                    *              1             0             1 
+   136 clause_value[136]
+                    *              1             0             1 
+   137 clause_value[137]
+                    *              1             0             1 
+   138 clause_value[138]
+                    *              1             0             1 
+   139 clause_value[139]
+                    *              1             0             1 
+   140 clause_value[140]
+                    *              1             0             1 
+   141 clause_value[141]
+                    *              1             0             1 
+   142 clause_value[142]
+                    *              1             0             1 
+   143 clause_value[143]
+                    *              1             0             1 
+   144 clause_value[144]
+                    *              1             0             1 
+   145 clause_value[145]
+                    *              1             0             1 
+   146 clause_value[146]
+                    *              1             0             1 
+   147 clause_value[147]
+                    *              1             0             1 
+   148 clause_value[148]
+                    *              1             0             1 
+   149 clause_value[149]
+                    *              1             0             1 
+   150 clause_value[150]
+                    *              1             0             1 
+   151 clause_value[151]
+                    *              1             0             1 
+   152 clause_value[152]
+                    *              1             0             1 
+   153 clause_value[153]
+                    *              1             0             1 
+   154 clause_value[154]
+                    *              1             0             1 
+   155 clause_value[155]
+                    *              1             0             1 
+   156 clause_value[156]
+                    *              1             0             1 
+   157 clause_value[157]
+                    *              1             0             1 
+   158 clause_value[158]
+                    *              1             0             1 
+   159 clause_value[159]
+                    *              1             0             1 
+   160 clause_value[160]
+                    *              1             0             1 
+   161 clause_value[161]
+                    *              1             0             1 
+   162 clause_value[162]
+                    *              1             0             1 
+   163 clause_value[163]
+                    *              1             0             1 
+   164 clause_value[164]
+                    *              1             0             1 
+   165 clause_value[165]
+                    *              1             0             1 
+   166 clause_value[166]
+                    *              1             0             1 
+   167 clause_value[167]
+                    *              1             0             1 
+   168 clause_value[168]
+                    *              1             0             1 
+   169 clause_value[169]
+                    *              1             0             1 
+   170 clause_value[170]
+                    *              1             0             1 
+   171 clause_value[171]
+                    *              1             0             1 
+   172 clause_value[172]
+                    *              1             0             1 
+   173 clause_value[173]
+                    *              1             0             1 
+   174 clause_value[174]
+                    *              1             0             1 
+   175 clause_value[175]
+                    *              1             0             1 
+   176 clause_value[176]
+                    *              1             0             1 
+   177 clause_value[177]
+                    *              1             0             1 
+   178 clause_value[178]
+                    *              1             0             1 
+   179 clause_value[179]
+                    *              1             0             1 
+   180 clause_value[180]
+                    *              1             0             1 
+   181 clause_value[181]
+                    *              1             0             1 
+   182 clause_value[182]
+                    *              1             0             1 
+   183 clause_value[183]
+                    *              1             0             1 
+   184 clause_value[184]
+                    *              1             0             1 
+   185 clause_value[185]
+                    *              1             0             1 
+   186 clause_value[186]
+                    *              1             0             1 
+   187 clause_value[187]
+                    *              1             0             1 
+   188 clause_value[188]
+                    *              1             0             1 
+   189 clause_value[189]
+                    *              1             0             1 
+   190 clause_value[190]
+                    *              1             0             1 
+   191 clause_value[191]
+                    *              1             0             1 
+   192 clause_value[192]
+                    *              1             0             1 
+   193 clause_value[193]
+                    *              1             0             1 
+   194 clause_value[194]
+                    *              1             0             1 
+   195 clause_value[195]
+                    *              1             0             1 
+   196 clause_value[196]
+                    *              1             0             1 
+   197 clause_value[197]
+                    *              1             0             1 
+   198 clause_value[198]
+                    *              1             0             1 
+   199 clause_value[199]
+                    *              1             0             1 
+   200 clause_value[200]
+                    *              1             0             1 
+   201 clause_value[201]
+                    *              1             0             1 
+   202 clause_value[202]
+                    *              1             0             1 
+   203 clause_value[203]
+                    *              1             0             1 
+   204 clause_value[204]
+                    *              1             0             1 
+   205 clause_value[205]
+                    *              1             0             1 
+   206 clause_value[206]
+                    *              1             0             1 
+   207 clause_value[207]
+                    *              1             0             1 
+   208 clause_value[208]
+                    *              1             0             1 
+   209 clause_value[209]
+                    *              1             0             1 
+   210 clause_value[210]
+                    *              1             0             1 
+   211 clause_value[211]
+                    *              1             0             1 
+   212 clause_value[212]
+                    *              1             0             1 
+   213 clause_value[213]
+                    *              1             0             1 
+   214 clause_value[214]
+                    *              1             0             1 
+   215 clause_value[215]
+                    *              1             0             1 
+   216 clause_value[216]
+                    *              1             0             1 
+   217 clause_value[217]
+                    *              1             0             1 
+   218 clause_value[218]
+                    *              1             0             1 
+   219 clause_value[219]
+                    *              1             0             1 
+   220 clause_value[220]
+                    *              1             0             1 
+   221 clause_value[221]
+                    *              1             0             1 
+   222 clause_value[222]
+                    *              1             0             1 
+   223 clause_value[223]
+                    *              1             0             1 
+   224 clause_value[224]
+                    *              1             0             1 
+   225 clause_value[225]
+                    *              1             0             1 
+   226 clause_value[226]
+                    *              1             0             1 
+   227 clause_value[227]
+                    *              1             0             1 
+   228 clause_value[228]
+                    *              1             0             1 
+   229 clause_value[229]
+                    *              1             0             1 
+   230 clause_value[230]
+                    *              1             0             1 
+   231 clause_value[231]
+                    *              1             0             1 
+   232 clause_value[232]
+                    *              1             0             1 
+   233 clause_value[233]
+                    *              1             0             1 
+   234 clause_value[234]
+                    *              1             0             1 
+   235 clause_value[235]
+                    *              1             0             1 
+   236 clause_value[236]
+                    *              1             0             1 
+   237 clause_value[237]
+                    *              1             0             1 
+   238 clause_value[238]
+                    *              1             0             1 
+   239 clause_value[239]
+                    *              1             0             1 
+   240 clause_value[240]
+                    *              1             0             1 
+   241 clause_value[241]
+                    *              1             0             1 
+   242 clause_value[242]
+                    *              1             0             1 
+   243 clause_value[243]
+                    *              1             0             1 
+   244 clause_value[244]
+                    *              1             0             1 
+   245 clause_value[245]
+                    *              1             0             1 
+   246 clause_value[246]
+                    *              1             0             1 
+   247 clause_value[247]
+                    *              1             0             1 
+   248 clause_value[248]
+                    *              1             0             1 
+   249 clause_value[249]
+                    *              1             0             1 
+   250 clause_value[250]
+                    *              1             0             1 
+   251 clause_value[251]
+                    *              1             0             1 
+   252 clause_value[252]
+                    *              1             0             1 
+   253 clause_value[253]
+                    *              1             0             1 
+   254 clause_value[254]
+                    *              1             0             1 
+   255 clause_value[255]
+                    *              1             0             1 
+   256 clause_value[256]
+                    *              1             0             1 
+   257 clause_value[257]
+                    *              1             0             1 
+   258 clause_value[258]
+                    *              1             0             1 
+   259 clause_value[259]
+                    *              1             0             1 
+   260 clause_value[260]
+                    *              1             0             1 
+   261 clause_value[261]
+                    *              1             0             1 
+   262 clause_value[262]
+                    *              1             0             1 
+   263 clause_value[263]
+                    *              1             0             1 
+   264 clause_value[264]
+                    *              1             0             1 
+   265 clause_value[265]
+                    *              1             0             1 
+   266 clause_value[266]
+                    *              1             0             1 
+   267 clause_value[267]
+                    *              1             0             1 
+   268 clause_value[268]
+                    *              1             0             1 
+   269 clause_value[269]
+                    *              1             0             1 
+   270 clause_value[270]
+                    *              1             0             1 
+   271 clause_value[271]
+                    *              1             0             1 
+   272 clause_value[272]
+                    *              1             0             1 
+   273 clause_value[273]
+                    *              1             0             1 
+   274 clause_value[274]
+                    *              1             0             1 
+   275 clause_value[275]
+                    *              1             0             1 
+   276 clause_value[276]
+                    *              1             0             1 
+   277 clause_value[277]
+                    *              1             0             1 
+   278 clause_value[278]
+                    *              1             0             1 
+   279 clause_value[279]
+                    *              1             0             1 
+   280 clause_value[280]
+                    *              1             0             1 
+   281 clause_value[281]
+                    *              1             0             1 
+   282 clause_value[282]
+                    *              1             0             1 
+   283 clause_value[283]
+                    *              1             0             1 
+   284 clause_value[284]
+                    *              1             0             1 
+   285 clause_value[285]
+                    *              1             0             1 
+   286 clause_value[286]
+                    *              1             0             1 
+   287 clause_value[287]
+                    *              1             0             1 
+   288 clause_value[288]
+                    *              1             0             1 
+   289 clause_value[289]
+                    *              1             0             1 
+   290 clause_value[290]
+                    *              1             0             1 
+   291 clause_value[291]
+                    *              1             0             1 
+   292 clause_value[292]
+                    *              1             0             1 
+   293 clause_value[293]
+                    *              1             0             1 
+   294 clause_value[294]
+                    *              1             0             1 
+   295 clause_value[295]
+                    *              1             0             1 
+   296 clause_value[296]
+                    *              1             0             1 
+   297 clause_value[297]
+                    *              1             0             1 
+   298 clause_value[298]
+                    *              1             0             1 
+   299 clause_value[299]
+                    *              1             0             1 
+   300 clause_value[300]
+                    *              1             0             1 
+   301 clause_value[301]
+                    *              1             0             1 
+   302 clause_value[302]
+                    *              1             0             1 
+   303 clause_value[303]
+                    *              1             0             1 
+   304 clause_value[304]
+                    *              1             0             1 
+   305 clause_value[305]
+                    *              1             0             1 
+   306 clause_value[306]
+                    *              1             0             1 
+   307 clause_value[307]
+                    *              1             0             1 
+   308 clause_value[308]
+                    *              1             0             1 
+   309 clause_value[309]
+                    *              1             0             1 
+   310 clause_value[310]
+                    *              1             0             1 
+   311 clause_value[311]
+                    *              1             0             1 
+   312 clause_value[312]
+                    *              1             0             1 
+   313 clause_value[313]
+                    *              1             0             1 
+   314 clause_value[314]
+                    *              1             0             1 
+   315 clause_value[315]
+                    *              1             0             1 
+   316 clause_value[316]
+                    *              1             0             1 
+   317 clause_value[317]
+                    *              1             0             1 
+   318 clause_value[318]
+                    *              1             0             1 
+   319 clause_value[319]
+                    *              1             0             1 
+   320 clause_value[320]
+                    *              1             0             1 
+   321 clause_value[321]
+                    *              1             0             1 
+   322 clause_value[322]
+                    *              1             0             1 
+   323 clause_value[323]
+                    *              1             0             1 
+   324 clause_value[324]
+                    *              1             0             1 
+   325 clause_value[325]
+                    *              1             0             1 
+   326 clause_value[326]
+                    *              1             0             1 
+   327 clause_value[327]
+                    *              1             0             1 
+   328 clause_value[328]
+                    *              1             0             1 
+   329 clause_value[329]
+                    *              1             0             1 
+   330 clause_value[330]
+                    *              1             0             1 
+   331 clause_value[331]
+                    *              1             0             1 
+   332 clause_value[332]
+                    *              1             0             1 
+   333 clause_value[333]
+                    *              1             0             1 
+   334 clause_value[334]
+                    *              1             0             1 
+   335 clause_value[335]
+                    *              1             0             1 
+   336 clause_value[336]
+                    *              1             0             1 
+   337 clause_value[337]
+                    *              1             0             1 
+   338 clause_value[338]
+                    *              1             0             1 
+   339 clause_value[339]
+                    *              1             0             1 
+   340 clause_value[340]
+                    *              1             0             1 
+   341 clause_value[341]
+                    *              1             0             1 
+   342 clause_value[342]
+                    *              1             0             1 
+   343 clause_value[343]
+                    *              1             0             1 
+   344 clause_value[344]
+                    *              1             0             1 
+   345 clause_value[345]
+                    *              1             0             1 
+   346 clause_value[346]
+                    *              1             0             1 
+   347 clause_value[347]
+                    *              1             0             1 
+   348 clause_value[348]
+                    *              1             0             1 
+   349 clause_value[349]
+                    *              1             0             1 
+   350 clause_value[350]
+                    *              1             0             1 
+   351 clause_value[351]
+                    *              1             0             1 
+   352 clause_value[352]
+                    *              1             0             1 
+   353 clause_value[353]
+                    *              1             0             1 
+   354 clause_value[354]
+                    *              1             0             1 
+   355 clause_value[355]
+                    *              1             0             1 
+   356 clause_value[356]
+                    *              1             0             1 
+   357 clause_value[357]
+                    *              1             0             1 
+   358 clause_value[358]
+                    *              1             0             1 
+   359 clause_value[359]
+                    *              1             0             1 
+   360 clause_value[360]
+                    *              1             0             1 
+   361 clause_value[361]
+                    *              1             0             1 
+   362 clause_value[362]
+                    *              1             0             1 
+   363 clause_value[363]
+                    *              1             0             1 
+   364 clause_value[364]
+                    *              1             0             1 
+   365 clause_value[365]
+                    *              1             0             1 
+   366 clause_value[366]
+                    *              1             0             1 
+   367 clause_value[367]
+                    *              1             0             1 
+   368 clause_value[368]
+                    *              1             0             1 
+   369 clause_value[369]
+                    *              1             0             1 
+   370 clause_value[370]
+                    *              1             0             1 
+   371 clause_value[371]
+                    *              1             0             1 
+   372 clause_value[372]
+                    *              1             0             1 
+   373 clause_value[373]
+                    *              1             0             1 
+   374 clause_value[374]
+                    *              1             0             1 
+   375 clause_value[375]
+                    *              1             0             1 
+   376 clause_value[376]
+                    *              1             0             1 
+   377 clause_value[377]
+                    *              1             0             1 
+   378 clause_value[378]
+                    *              1             0             1 
+   379 clause_value[379]
+                    *              1             0             1 
+   380 clause_value[380]
+                    *              1             0             1 
+   381 clause_value[381]
+                    *              1             0             1 
+   382 clause_value[382]
+                    *              1             0             1 
+   383 clause_value[383]
+                    *              1             0             1 
+   384 clause_value[384]
+                    *              1             0             1 
+   385 clause_value[385]
+                    *              1             0             1 
+   386 clause_value[386]
+                    *              1             0             1 
+   387 clause_value[387]
+                    *              1             0             1 
+   388 clause_value[388]
+                    *              1             0             1 
+   389 clause_value[389]
+                    *              1             0             1 
+   390 clause_value[390]
+                    *              1             0             1 
+   391 clause_value[391]
+                    *              1             0             1 
+   392 clause_value[392]
+                    *              1             0             1 
+   393 clause_value[393]
+                    *              1             0             1 
+   394 clause_value[394]
+                    *              1             0             1 
+   395 clause_value[395]
+                    *              1             0             1 
+   396 clause_value[396]
+                    *              1             0             1 
+   397 clause_value[397]
+                    *              1             0             1 
+   398 clause_value[398]
+                    *              1             0             1 
+   399 clause_value[399]
+                    *              1             0             1 
+   400 clause_value[400]
+                    *              1             0             1 
+   401 clause_value[401]
+                    *              1             0             1 
+   402 clause_value[402]
+                    *              1             0             1 
+   403 clause_value[403]
+                    *              1             0             1 
+   404 clause_value[404]
+                    *              1             0             1 
+   405 clause_value[405]
+                    *              1             0             1 
+   406 clause_value[406]
+                    *              1             0             1 
+   407 clause_value[407]
+                    *              1             0             1 
+   408 clause_value[408]
+                    *              1             0             1 
+   409 clause_value[409]
+                    *              1             0             1 
+   410 clause_value[410]
+                    *              1             0             1 
+   411 clause_value[411]
+                    *              1             0             1 
+   412 clause_value[412]
+                    *              1             0             1 
+   413 clause_value[413]
+                    *              1             0             1 
+   414 clause_value[414]
+                    *              1             0             1 
+   415 clause_value[415]
+                    *              1             0             1 
+   416 clause_value[416]
+                    *              1             0             1 
+   417 clause_value[417]
+                    *              1             0             1 
+   418 clause_value[418]
+                    *              1             0             1 
+   419 clause_value[419]
+                    *              1             0             1 
+   420 clause_value[420]
+                    *              1             0             1 
+   421 clause_value[421]
+                    *              1             0             1 
+   422 clause_value[422]
+                    *              1             0             1 
+   423 clause_value[423]
+                    *              1             0             1 
+   424 clause_value[424]
+                    *              1             0             1 
+   425 clause_value[425]
+                    *              1             0             1 
+   426 clause_value[426]
+                    *              1             0             1 
+   427 clause_value[427]
+                    *              1             0             1 
+   428 clause_value[428]
+                    *              1             0             1 
+   429 clause_value[429]
+                    *              1             0             1 
+   430 clause_value[430]
+                    *              1             0             1 
+   431 clause_value[431]
+                    *              1             0             1 
+   432 clause_value[432]
+                    *              1             0             1 
+   433 clause_value[433]
+                    *              1             0             1 
+   434 clause_value[434]
+                    *              1             0             1 
+   435 clause_value[435]
+                    *              1             0             1 
+   436 clause_value[436]
+                    *              1             0             1 
+   437 clause_value[437]
+                    *              1             0             1 
+   438 clause_value[438]
+                    *              1             0             1 
+   439 clause_value[439]
+                    *              1             0             1 
+   440 clause_value[440]
+                    *              1             0             1 
+   441 clause_value[441]
+                    *              1             0             1 
+   442 clause_value[442]
+                    *              1             0             1 
+   443 clause_value[443]
+                    *              1             0             1 
+   444 clause_value[444]
+                    *              1             0             1 
+   445 clause_value[445]
+                    *              1             0             1 
+   446 clause_value[446]
+                    *              1             0             1 
+   447 clause_value[447]
+                    *              1             0             1 
+   448 clause_value[448]
+                    *              1             0             1 
+   449 clause_value[449]
+                    *              1             0             1 
+   450 clause_value[450]
+                    *              1             0             1 
+   451 clause_value[451]
+                    *              1             0             1 
+   452 clause_value[452]
+                    *              1             0             1 
+   453 clause_value[453]
+                    *              1             0             1 
+   454 clause_value[454]
+                    *              1             0             1 
+   455 clause_value[455]
+                    *              1             0             1 
+   456 clause_value[456]
+                    *              1             0             1 
+   457 clause_value[457]
+                    *              1             0             1 
+   458 clause_value[458]
+                    *              1             0             1 
+   459 clause_value[459]
+                    *              1             0             1 
+   460 clause_value[460]
+                    *              1             0             1 
+   461 clause_value[461]
+                    *              1             0             1 
+   462 clause_value[462]
+                    *              1             0             1 
+   463 clause_value[463]
+                    *              1             0             1 
+   464 clause_value[464]
+                    *              1             0             1 
+   465 clause_value[465]
+                    *              1             0             1 
+   466 clause_value[466]
+                    *              1             0             1 
+   467 clause_value[467]
+                    *              1             0             1 
+   468 clause_value[468]
+                    *              1             0             1 
+   469 clause_value[469]
+                    *              1             0             1 
+   470 clause_value[470]
+                    *              1             0             1 
+   471 clause_value[471]
+                    *              1             0             1 
+   472 clause_value[472]
+                    *              1             0             1 
+   473 clause_value[473]
+                    *              1             0             1 
+   474 clause_value[474]
+                    *              1             0             1 
+   475 clause_value[475]
+                    *              1             0             1 
+   476 clause_value[476]
+                    *              1             0             1 
+   477 clause_value[477]
+                    *              1             0             1 
+   478 clause_value[478]
+                    *              1             0             1 
+   479 clause_value[479]
+                    *              1             0             1 
+   480 clause_value[480]
+                    *              1             0             1 
+   481 clause_value[481]
+                    *              1             0             1 
+   482 clause_value[482]
+                    *              1             0             1 
+   483 clause_value[483]
+                    *              1             0             1 
+   484 clause_value[484]
+                    *              1             0             1 
+   485 clause_value[485]
+                    *              1             0             1 
+   486 clause_value[486]
+                    *              1             0             1 
+   487 clause_value[487]
+                    *              1             0             1 
+   488 clause_value[488]
+                    *              1             0             1 
+   489 clause_value[489]
+                    *              1             0             1 
+   490 clause_value[490]
+                    *              1             0             1 
+   491 clause_value[491]
+                    *              1             0             1 
+   492 clause_value[492]
+                    *              1             0             1 
+   493 clause_value[493]
+                    *              1             0             1 
+   494 clause_value[494]
+                    *              1             0             1 
+   495 clause_value[495]
+                    *              1             0             1 
+   496 clause_value[496]
+                    *              1             0             1 
+   497 clause_value[497]
+                    *              1             0             1 
+   498 clause_value[498]
+                    *              1             0             1 
+   499 clause_value[499]
+                    *              1             0             1 
+   500 clause_value[500]
+                    *              1             0             1 
+   501 clause_value[501]
+                    *              1             0             1 
+   502 clause_value[502]
+                    *              1             0             1 
+   503 clause_value[503]
+                    *              1             0             1 
+   504 clause_value[504]
+                    *              1             0             1 
+   505 clause_value[505]
+                    *              1             0             1 
+   506 clause_value[506]
+                    *              1             0             1 
+   507 clause_value[507]
+                    *              1             0             1 
+   508 clause_value[508]
+                    *              1             0             1 
+   509 clause_value[509]
+                    *              1             0             1 
+   510 clause_value[510]
+                    *              1             0             1 
+   511 clause_value[511]
+                    *              1             0             1 
+   512 clause_value[512]
+                    *              1             0             1 
+   513 clause_value[513]
+                    *              1             0             1 
+   514 clause_value[514]
+                    *              1             0             1 
+   515 clause_value[515]
+                    *              1             0             1 
+   516 clause_value[516]
+                    *              1             0             1 
+   517 clause_value[517]
+                    *              1             0             1 
+   518 clause_value[518]
+                    *              1             0             1 
+   519 clause_value[519]
+                    *              1             0             1 
+   520 clause_value[520]
+                    *              1             0             1 
+   521 clause_value[521]
+                    *              1             0             1 
+   522 clause_value[522]
+                    *              1             0             1 
+   523 clause_value[523]
+                    *              1             0             1 
+   524 clause_value[524]
+                    *              1             0             1 
+   525 clause_value[525]
+                    *              1             0             1 
+   526 clause_value[526]
+                    *              1             0             1 
+   527 clause_value[527]
+                    *              1             0             1 
+   528 clause_value[528]
+                    *              1             0             1 
+   529 clause_value[529]
+                    *              1             0             1 
+   530 clause_value[530]
+                    *              1             0             1 
+   531 clause_value[531]
+                    *              1             0             1 
+   532 clause_value[532]
+                    *              1             0             1 
+   533 clause_value[533]
+                    *              1             0             1 
+   534 clause_value[534]
+                    *              1             0             1 
+   535 clause_value[535]
+                    *              1             0             1 
+   536 clause_value[536]
+                    *              1             0             1 
+   537 clause_value[537]
+                    *              1             0             1 
+   538 clause_value[538]
+                    *              1             0             1 
+   539 clause_value[539]
+                    *              1             0             1 
+   540 clause_value[540]
+                    *              1             0             1 
+   541 clause_value[541]
+                    *              1             0             1 
+   542 clause_value[542]
+                    *              1             0             1 
+   543 clause_value[543]
+                    *              1             0             1 
+   544 clause_value[544]
+                    *              1             0             1 
+   545 clause_value[545]
+                    *              1             0             1 
+   546 clause_value[546]
+                    *              1             0             1 
+   547 clause_value[547]
+                    *              1             0             1 
+   548 clause_value[548]
+                    *              1             0             1 
+   549 clause_value[549]
+                    *              1             0             1 
+   550 clause_value[550]
+                    *              1             0             1 
+   551 clause_value[551]
+                    *              1             0             1 
+   552 clause_value[552]
+                    *              1             0             1 
+   553 clause_value[553]
+                    *              1             0             1 
+   554 clause_value[554]
+                    *              1             0             1 
+   555 clause_value[555]
+                    *              1             0             1 
+   556 clause_value[556]
+                    *              1             0             1 
+   557 clause_value[557]
+                    *              1             0             1 
+   558 clause_value[558]
+                    *              1             0             1 
+   559 clause_value[559]
+                    *              1             0             1 
+   560 clause_value[560]
+                    *              1             0             1 
+   561 clause_value[561]
+                    *              1             0             1 
+   562 clause_value[562]
+                    *              1             0             1 
+   563 clause_value[563]
+                    *              1             0             1 
+   564 clause_value[564]
+                    *              1             0             1 
+   565 clause_value[565]
+                    *              1             0             1 
+   566 clause_value[566]
+                    *              1             0             1 
+   567 clause_value[567]
+                    *              1             0             1 
+   568 clause_value[568]
+                    *              1             0             1 
+   569 clause_value[569]
+                    *              1             0             1 
+   570 clause_value[570]
+                    *              1             0             1 
+   571 clause_value[571]
+                    *              1             0             1 
+   572 clause_value[572]
+                    *              1             0             1 
+   573 clause_value[573]
+                    *              1             0             1 
+   574 clause_value[574]
+                    *              1             0             1 
+   575 clause_value[575]
+                    *              1             0             1 
+   576 clause_value[576]
+                    *              1             0             1 
+   577 clause_value[577]
+                    *              1             0             1 
+   578 clause_value[578]
+                    *              1             0             1 
+   579 clause_value[579]
+                    *              1             0             1 
+   580 clause_value[580]
+                    *              1             0             1 
+   581 clause_value[581]
+                    *              1             0             1 
+   582 clause_value[582]
+                    *              1             0             1 
+   583 clause_value[583]
+                    *              1             0             1 
+   584 clause_value[584]
+                    *              1             0             1 
+   585 clause_value[585]
+                    *              1             0             1 
+   586 clause_value[586]
+                    *              1             0             1 
+   587 clause_value[587]
+                    *              1             0             1 
+   588 clause_value[588]
+                    *              1             0             1 
+   589 clause_value[589]
+                    *              1             0             1 
+   590 clause_value[590]
+                    *              1             0             1 
+   591 clause_value[591]
+                    *              1             0             1 
+   592 clause_value[592]
+                    *              1             0             1 
+   593 clause_value[593]
+                    *              1             0             1 
+   594 clause_value[594]
+                    *              1             0             1 
+   595 clause_value[595]
+                    *              1             0             1 
+   596 clause_value[596]
+                    *              1             0             1 
+   597 clause_value[597]
+                    *              1             0             1 
+   598 clause_value[598]
+                    *              1             0             1 
+   599 clause_value[599]
+                    *              1             0             1 
+   600 clause_value[600]
+                    *              1             0             1 
+   601 clause_value[601]
+                    *              1             0             1 
+   602 clause_value[602]
+                    *              1             0             1 
+   603 clause_value[603]
+                    *              1             0             1 
+   604 clause_value[604]
+                    *              1             0             1 
+   605 clause_value[605]
+                    *              1             0             1 
+   606 clause_value[606]
+                    *              1             0             1 
+   607 clause_value[607]
+                    *              1             0             1 
+   608 clause_value[608]
+                    *              1             0             1 
+   609 clause_value[609]
+                    *              1             0             1 
+   610 clause_value[610]
+                    *              1             0             1 
+   611 clause_value[611]
+                    *              1             0             1 
+   612 clause_value[612]
+                    *              1             0             1 
+   613 clause_value[613]
+                    *              1             0             1 
+   614 clause_value[614]
+                    *              1             0             1 
+   615 clause_value[615]
+                    *              1             0             1 
+   616 clause_value[616]
+                    *              1             0             1 
+   617 clause_value[617]
+                    *              1             0             1 
+   618 clause_value[618]
+                    *              1             0             1 
+   619 clause_value[619]
+                    *              1             0             1 
+   620 clause_value[620]
+                    *              1             0             1 
+   621 clause_value[621]
+                    *              1             0             1 
+   622 clause_value[622]
+                    *              1             0             1 
+   623 clause_value[623]
+                    *              1             0             1 
+   624 clause_value[624]
+                    *              1             0             1 
+   625 clause_value[625]
+                    *              1             0             1 
+   626 clause_value[626]
+                    *              1             0             1 
+   627 clause_value[627]
+                    *              1             0             1 
+   628 clause_value[628]
+                    *              1             0             1 
+   629 clause_value[629]
+                    *              1             0             1 
+   630 clause_value[630]
+                    *              1             0             1 
+   631 clause_value[631]
+                    *              1             0             1 
+   632 clause_value[632]
+                    *              1             0             1 
+   633 clause_value[633]
+                    *              1             0             1 
+   634 clause_value[634]
+                    *              1             0             1 
+   635 clause_value[635]
+                    *              1             0             1 
+   636 clause_value[636]
+                    *              1             0             1 
+   637 clause_value[637]
+                    *              1             0             1 
+   638 clause_value[638]
+                    *              1             0             1 
+   639 clause_value[639]
+                    *              1             0             1 
+   640 clause_value[640]
+                    *              1             0             1 
+   641 clause_value[641]
+                    *              1             0             1 
+   642 clause_value[642]
+                    *              1             0             1 
+   643 clause_value[643]
+                    *              1             0             1 
+   644 clause_value[644]
+                    *              1             0             1 
+   645 clause_value[645]
+                    *              1             0             1 
+   646 clause_value[646]
+                    *              1             0             1 
+   647 clause_value[647]
+                    *              1             0             1 
+   648 clause_value[648]
+                    *              1             0             1 
+   649 clause_value[649]
+                    *              1             0             1 
+   650 clause_value[650]
+                    *              1             0             1 
+   651 clause_value[651]
+                    *              1             0             1 
+   652 clause_value[652]
+                    *              1             0             1 
+   653 clause_value[653]
+                    *              1             0             1 
+   654 clause_value[654]
+                    *              1             0             1 
+   655 clause_value[655]
+                    *              1             0             1 
+   656 clause_value[656]
+                    *              1             0             1 
+   657 clause_value[657]
+                    *              1             0             1 
+   658 clause_value[658]
+                    *              1             0             1 
+   659 clause_value[659]
+                    *              1             0             1 
+   660 clause_value[660]
+                    *              1             0             1 
+   661 clause_value[661]
+                    *              1             0             1 
+   662 clause_value[662]
+                    *              1             0             1 
+   663 clause_value[663]
+                    *              1             0             1 
+   664 clause_value[664]
+                    *              1             0             1 
+   665 clause_value[665]
+                    *              1             0             1 
+   666 clause_value[666]
+                    *              1             0             1 
+   667 clause_value[667]
+                    *              1             0             1 
+   668 clause_value[668]
+                    *              1             0             1 
+   669 clause_value[669]
+                    *              1             0             1 
+   670 clause_value[670]
+                    *              1             0             1 
+   671 clause_value[671]
+                    *              1             0             1 
+   672 clause_value[672]
+                    *              1             0             1 
+   673 clause_value[673]
+                    *              1             0             1 
+   674 clause_value[674]
+                    *              1             0             1 
+   675 clause_value[675]
+                    *              1             0             1 
+   676 clause_value[676]
+                    *              1             0             1 
+   677 clause_value[677]
+                    *              1             0             1 
+   678 clause_value[678]
+                    *              1             0             1 
+   679 clause_value[679]
+                    *              1             0             1 
+   680 clause_value[680]
+                    *              1             0             1 
+   681 clause_value[681]
+                    *              1             0             1 
+   682 clause_value[682]
+                    *              1             0             1 
+   683 clause_value[683]
+                    *              1             0             1 
+   684 clause_value[684]
+                    *              1             0             1 
+   685 clause_value[685]
+                    *              1             0             1 
+   686 clause_value[686]
+                    *              1             0             1 
+   687 clause_value[687]
+                    *              1             0             1 
+   688 clause_value[688]
+                    *              1             0             1 
+   689 clause_value[689]
+                    *              1             0             1 
+   690 clause_value[690]
+                    *              1             0             1 
+   691 clause_value[691]
+                    *              1             0             1 
+   692 clause_value[692]
+                    *              1             0             1 
+   693 clause_value[693]
+                    *              1             0             1 
+   694 clause_value[694]
+                    *              1             0             1 
+   695 clause_value[695]
+                    *              1             0             1 
+   696 clause_value[696]
+                    *              1             0             1 
+   697 clause_value[697]
+                    *              1             0             1 
+   698 clause_value[698]
+                    *              1             0             1 
+   699 clause_value[699]
+                    *              1             0             1 
+   700 clause_value[700]
+                    *              1             0             1 
+   701 clause_value[701]
+                    *              1             0             1 
+   702 clause_value[702]
+                    *              1             0             1 
+   703 clause_value[703]
+                    *              1             0             1 
+   704 clause_value[704]
+                    *              1             0             1 
+   705 clause_value[705]
+                    *              1             0             1 
+   706 clause_value[706]
+                    *              1             0             1 
+   707 clause_value[707]
+                    *              1             0             1 
+   708 clause_value[708]
+                    *              1             0             1 
+   709 clause_value[709]
+                    *              1             0             1 
+   710 clause_value[710]
+                    *              1             0             1 
+   711 clause_value[711]
+                    *              1             0             1 
+   712 clause_value[712]
+                    *              1             0             1 
+   713 clause_value[713]
+                    *              1             0             1 
+   714 clause_value[714]
+                    *              1             0             1 
+   715 clause_value[715]
+                    *              1             0             1 
+   716 clause_value[716]
+                    *              1             0             1 
+   717 clause_value[717]
+                    *              1             0             1 
+   718 clause_value[718]
+                    *              1             0             1 
+   719 clause_value[719]
+                    *              1             0             1 
+   720 clause_value[720]
+                    *              1             0             1 
+   721 clause_value[721]
+                    *              1             0             1 
+   722 clause_value[722]
+                    *              1             0             1 
+   723 clause_value[723]
+                    *              1             0             1 
+   724 clause_value[724]
+                    *              1             0             1 
+   725 clause_value[725]
+                    *              1             0             1 
+   726 clause_value[726]
+                    *              1             0             1 
+   727 clause_value[727]
+                    *              1             0             1 
+   728 clause_value[728]
+                    *              1             0             1 
+   729 clause_value[729]
+                    *              1             0             1 
+   730 clause_value[730]
+                    *              1             0             1 
+   731 clause_value[731]
+                    *              1             0             1 
+   732 clause_value[732]
+                    *              1             0             1 
+   733 clause_value[733]
+                    *              1             0             1 
+   734 clause_value[734]
+                    *              1             0             1 
+   735 clause_value[735]
+                    *              1             0             1 
+   736 clause_value[736]
+                    *              1             0             1 
+   737 clause_value[737]
+                    *              1             0             1 
+   738 clause_value[738]
+                    *              1             0             1 
+   739 clause_value[739]
+                    *              1             0             1 
+   740 clause_value[740]
+                    *              1             0             1 
+   741 clause_value[741]
+                    *              1             0             1 
+   742 clause_value[742]
+                    *              1             0             1 
+   743 clause_value[743]
+                    *              1             0             1 
+   744 clause_value[744]
+                    *              1             0             1 
+   745 clause_value[745]
+                    *              1             0             1 
+   746 clause_value[746]
+                    *              1             0             1 
+   747 clause_value[747]
+                    *              1             0             1 
+   748 clause_value[748]
+                    *              1             0             1 
+   749 clause_value[749]
+                    *              1             0             1 
+   750 clause_value[750]
+                    *              1             0             1 
+   751 clause_value[751]
+                    *              1             0             1 
+   752 clause_value[752]
+                    *              1             0             1 
+   753 clause_value[753]
+                    *              1             0             1 
+   754 variable_value[1]
+                    *              0             0             1 
+   755 variable_value[2]
+                    *              1             0             1 
+   756 variable_value[3]
+                    *              1             0             1 
+   757 variable_value[4]
+                    *              0             0             1 
+   758 variable_value[5]
+                    *              1             0             1 
+   759 variable_value[6]
+                    *              0             0             1 
+   760 variable_value[7]
+                    *              0             0             1 
+   761 variable_value[8]
+                    *              0             0             1 
+   762 variable_value[9]
+                    *              0             0             1 
+   763 variable_value[10]
+                    *              0             0             1 
+   764 variable_value[11]
+                    *              0             0             1 
+   765 variable_value[12]
+                    *              1             0             1 
+   766 variable_value[13]
+                    *              0             0             1 
+   767 variable_value[14]
+                    *              0             0             1 
+   768 variable_value[15]
+                    *              0             0             1 
+   769 variable_value[16]
+                    *              0             0             1 
+   770 variable_value[17]
+                    *              0             0             1 
+   771 variable_value[18]
+                    *              0             0             1 
+   772 variable_value[19]
+                    *              1             0             1 
+   773 variable_value[20]
+                    *              0             0             1 
+   774 variable_value[21]
+                    *              1             0             1 
+   775 variable_value[22]
+                    *              0             0             1 
+   776 variable_value[23]
+                    *              0             0             1 
+   777 variable_value[24]
+                    *              0             0             1 
+   778 variable_value[25]
+                    *              1             0             1 
+   779 variable_value[26]
+                    *              1             0             1 
+   780 variable_value[27]
+                    *              1             0             1 
+   781 variable_value[28]
+                    *              0             0             1 
+   782 variable_value[29]
+                    *              0             0             1 
+   783 variable_value[30]
+                    *              1             0             1 
+   784 variable_value[31]
+                    *              0             0             1 
+   785 variable_value[32]
+                    *              0             0             1 
+   786 variable_value[33]
+                    *              0             0             1 
+   787 variable_value[34]
+                    *              1             0             1 
+   788 variable_value[35]
+                    *              0             0             1 
+   789 variable_value[36]
+                    *              0             0             1 
+   790 variable_value[37]
+                    *              0             0             1 
+   791 variable_value[38]
+                    *              1             0             1 
+   792 variable_value[39]
+                    *              0             0             1 
+   793 variable_value[40]
+                    *              0             0             1 
+   794 variable_value[41]
+                    *              0             0             1 
+   795 variable_value[42]
+                    *              1             0             1 
+   796 variable_value[43]
+                    *              0             0             1 
+   797 variable_value[44]
+                    *              0             0             1 
+   798 variable_value[45]
+                    *              1             0             1 
+   799 variable_value[46]
+                    *              0             0             1 
+   800 variable_value[47]
+                    *              0             0             1 
+   801 variable_value[48]
+                    *              0             0             1 
+   802 variable_value[49]
+                    *              0             0             1 
+   803 variable_value[50]
+                    *              0             0             1 
+   804 variable_value[51]
+                    *              0             0             1 
+   805 variable_value[52]
+                    *              0             0             1 
+   806 variable_value[53]
+                    *              0             0             1 
+   807 variable_value[54]
+                    *              0             0             1 
+   808 variable_value[55]
+                    *              0             0             1 
+   809 variable_value[56]
+                    *              1             0             1 
+   810 variable_value[57]
+                    *              0             0             1 
+   811 variable_value[58]
+                    *              0             0             1 
+   812 variable_value[59]
+                    *              0             0             1 
+   813 variable_value[60]
+                    *              1             0             1 
+   814 variable_value[61]
+                    *              0             0             1 
+   815 variable_value[62]
+                    *              1             0             1 
+   816 variable_value[63]
+                    *              1             0             1 
+   817 variable_value[64]
+                    *              0             0             1 
+   818 variable_value[65]
+                    *              0             0             1 
+   819 variable_value[66]
+                    *              0             0             1 
+   820 variable_value[67]
+                    *              0             0             1 
+   821 variable_value[68]
+                    *              1             0             1 
+   822 variable_value[69]
+                    *              1             0             1 
+   823 variable_value[70]
+                    *              0             0             1 
+   824 variable_value[71]
+                    *              0             0             1 
+   825 variable_value[72]
+                    *              0             0             1 
+   826 variable_value[73]
+                    *              0             0             1 
+   827 variable_value[74]
+                    *              0             0             1 
+   828 variable_value[75]
+                    *              0             0             1 
+   829 variable_value[76]
+                    *              0             0             1 
+   830 variable_value[77]
+                    *              0             0             1 
+   831 variable_value[78]
+                    *              0             0             1 
+   832 variable_value[79]
+                    *              0             0             1 
+   833 variable_value[80]
+                    *              0             0             1 
+   834 variable_value[81]
+                    *              1             0             1 
+   835 variable_value[82]
+                    *              0             0             1 
+   836 variable_value[83]
+                    *              0             0             1 
+   837 variable_value[84]
+                    *              0             0             1 
+   838 variable_value[85]
+                    *              0             0             1 
+   839 variable_value[86]
+                    *              1             0             1 
+   840 variable_value[87]
+                    *              0             0             1 
+   841 variable_value[88]
+                    *              1             0             1 
+   842 variable_value[89]
+                    *              1             0             1 
+   843 variable_value[90]
+                    *              0             0             1 
+   844 variable_value[91]
+                    *              1             0             1 
+   845 variable_value[92]
+                    *              1             0             1 
+   846 variable_value[93]
+                    *              0             0             1 
+   847 variable_value[94]
+                    *              0             0             1 
+   848 variable_value[95]
+                    *              0             0             1 
+   849 variable_value[96]
+                    *              0             0             1 
+   850 variable_value[97]
+                    *              0             0             1 
+   851 variable_value[98]
+                    *              1             0             1 
+   852 variable_value[99]
+                    *              0             0             1 
+   853 variable_value[100]
+                    *              0             0             1 
+   854 variable_value[101]
+                    *              1             0             1 
+   855 variable_value[102]
+                    *              0             0             1 
+   856 variable_value[103]
+                    *              0             0             1 
+   857 variable_value[104]
+                    *              0             0             1 
+   858 variable_value[105]
+                    *              0             0             1 
+   859 variable_value[106]
+                    *              0             0             1 
+   860 variable_value[107]
+                    *              0             0             1 
+   861 variable_value[108]
+                    *              0             0             1 
+   862 variable_value[109]
+                    *              1             0             1 
+   863 variable_value[110]
+                    *              0             0             1 
+   864 variable_value[111]
+                    *              1             0             1 
+   865 variable_value[112]
+                    *              1             0             1 
+   866 variable_value[113]
+                    *              0             0             1 
+   867 variable_value[114]
+                    *              0             0             1 
+   868 variable_value[115]
+                    *              1             0             1 
+   869 variable_value[116]
+                    *              0             0             1 
+   870 variable_value[117]
+                    *              0             0             1 
+   871 variable_value[118]
+                    *              0             0             1 
+   872 variable_value[119]
+                    *              0             0             1 
+   873 variable_value[120]
+                    *              1             0             1 
+   874 variable_value[121]
+                    *              1             0             1 
+   875 variable_value[122]
+                    *              0             0             1 
+   876 variable_value[123]
+                    *              0             0             1 
+   877 variable_value[124]
+                    *              0             0             1 
+   878 variable_value[125]
+                    *              0             0             1 
+   879 variable_value[126]
+                    *              1             0             1 
+   880 variable_value[127]
+                    *              0             0             1 
+   881 variable_value[128]
+                    *              0             0             1 
+   882 variable_value[129]
+                    *              0             0             1 
+   883 variable_value[130]
+                    *              1             0             1 
+   884 variable_value[131]
+                    *              1             0             1 
+   885 variable_value[132]
+                    *              0             0             1 
+   886 variable_value[133]
+                    *              1             0             1 
+   887 variable_value[134]
+                    *              1             0             1 
+   888 variable_value[135]
+                    *              0             0             1 
+   889 variable_value[136]
+                    *              0             0             1 
+   890 variable_value[137]
+                    *              1             0             1 
+   891 variable_value[138]
+                    *              0             0             1 
+   892 variable_value[139]
+                    *              0             0             1 
+   893 variable_value[140]
+                    *              1             0             1 
+   894 variable_value[141]
+                    *              0             0             1 
+   895 variable_value[142]
+                    *              0             0             1 
+   896 variable_value[143]
+                    *              0             0             1 
+   897 variable_value[144]
+                    *              0             0             1 
+   898 variable_value[145]
+                    *              0             0             1 
+   899 variable_value[146]
+                    *              0             0             1 
+   900 variable_value[147]
+                    *              0             0             1 
+   901 variable_value[148]
+                    *              1             0             1 
+   902 variable_value[149]
+                    *              0             0             1 
+   903 variable_value[150]
+                    *              0             0             1 
+   904 variable_value[151]
+                    *              0             0             1 
+   905 variable_value[152]
+                    *              1             0             1 
+   906 variable_value[153]
+                    *              0             0             1 
+   907 variable_value[154]
+                    *              1             0             1 
+   908 variable_value[155]
+                    *              0             0             1 
+   909 variable_value[156]
+                    *              0             0             1 
+   910 variable_value[157]
+                    *              0             0             1 
+   911 variable_value[158]
+                    *              0             0             1 
+   912 variable_value[159]
+                    *              0             0             1 
+   913 variable_value[160]
+                    *              0             0             1 
+   914 variable_value[161]
+                    *              1             0             1 
+   915 variable_value[162]
+                    *              1             0             1 
+   916 variable_value[163]
+                    *              0             0             1 
+   917 variable_value[164]
+                    *              0             0             1 
+   918 variable_value[165]
+                    *              0             0             1 
+   919 variable_value[166]
+                    *              1             0             1 
+   920 variable_value[167]
+                    *              1             0             1 
+   921 variable_value[168]
+                    *              0             0             1 
+   922 variable_value[169]
+                    *              0             0             1 
+   923 variable_value[170]
+                    *              0             0             1 
+   924 variable_value[171]
+                    *              1             0             1 
+   925 variable_value[172]
+                    *              0             0             1 
+   926 variable_value[173]
+                    *              0             0             1 
+   927 variable_value[174]
+                    *              0             0             1 
+   928 variable_value[175]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
