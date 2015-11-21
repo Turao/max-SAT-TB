@@ -66,7 +66,7 @@ out.write("data;\n")
 out.write("param C := " + str(clauses) + ";\n")
 out.write("param V := " + str(variables) + ";\n")
 
-vars_str = ' '.join(str(e) for e in range(1,76))
+vars_str = ' '.join(str(e) for e in range(1,variables+1))
 out.write("param variable_present (tr) : " + vars_str + " := \n")
 
 for c in range(len(clauses_list)):
