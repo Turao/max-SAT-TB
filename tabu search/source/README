@@ -1,0 +1,48 @@
+Max-SAT com Busca Tabu
+
+Projeto da disciplina de Otimização Combinatória - 2015/2
+Prof. Marcus Ritt
+
+
+Comando para compilar:
+g++ maxsat.cpp -o maxsat
+
+Exemplo de comando para rodar o programa:
+./maxsat 30 30 30 10 true < ../data/uf175-053.cnf > ../solution/teste.out
+
+[programa p1 p2 p3 p4 p5 < arquivo de entrada > arquivo de saida]
+
+Onde:
+p1 - Tamanho Máximo da tabela (default 25);
+p2 - Numero maximo de iteracoes totais (default 100);
+p3 - Limite iteracoes da busca tabu realizadas sem melhora (default 25);
+p4 - Tempo maximo de cada laco de busca tabu em segundos(default 5s);
+p5 - Booleano para DEBUG (default FALSE);
+
+
+
+
+DONE!
+Pseudo Código da Busca Tabu
+
+s ← s0
+sBest ← s
+tabuList ← []
+while (not stoppingCondition())
+	candidateList ← []
+	bestCandidate ← null
+	for (sCandidate in sNeighborhood)
+		if ( (not tabuList.contains(sCandidate)) and (fitness(sCandidate) > fitness(bestCandidate)) )
+			bestCandidate ← sCandidate
+		end
+	end
+	s ← bestCandidate
+	if (fitness(bestCandidate) > fitness(sBest))
+		sBest ← bestCandidate
+	end
+	tabuList.push(bestCandidate);
+	if (tabuList.size > maxTabuSize)
+		tabuList.removeFirst()
+	end
+end
+return sBest
