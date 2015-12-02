@@ -1,0 +1,8 @@
+#A estrutura de pastas está organizada conforme os parametros de teste:
+Ex: /solution/100.1000.200/
+
+100 - Tamanho da tabela Tabu
+
+1000 - Iterações máximas do algoritmo
+
+200 - Tempo máximo em segundos de cada iteração (analise de vizinhança)
