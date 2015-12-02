@@ -16,12 +16,11 @@ int main(int argc, char* argv[]) {
 	begin = clock();
 
 	//Le os parametros passados pelo usuario para customizacao do algoritmo
-	if(argc < 5){
+	if(argc < 4){
 		imprimeBarra();
 		cout << "Assumindo valores padrao de parametros:" << endl;
 		tamanhoTabu = TAMANHO_TABU;
 		iteracoesTabu = ITERACOES_TABU;
-		limiteSemMelhora = LIMITE_SEM_MELHORA;
 		tempoLimite = TEMPO_LIMITE;
 		debug = DEBUG;
 	}
@@ -30,9 +29,8 @@ int main(int argc, char* argv[]) {
 		cout << "Valores dos parametros:" << endl;
 		tamanhoTabu = atoi(argv[1]);
 		iteracoesTabu = atoi(argv[2]);
-		limiteSemMelhora = atoi(argv[3]);
-		tempoLimite = atoi(argv[4]);
-		debug = (argv[5] == "true");
+		tempoLimite = atoi(argv[3]);
+		debug = (argv[4] == "true");
 	}
 
 	imprimeParametros();
@@ -80,7 +78,7 @@ int main(int argc, char* argv[]) {
 	
 	//*** Laco da BUSCA TABU ***//
 	iteracoes = 0;
-	while( (iteracoes < iteracoesTabu) && (itSemMelhora < limiteSemMelhora) ){
+	while( (iteracoes < iteracoesTabu) && ( melhorSolucao != totalClausulas ) ){
 
 		listaCandidatos();
 
@@ -90,16 +88,19 @@ int main(int argc, char* argv[]) {
 	}
 	//Fim da busca TABU
 
+	//Configura a saída final
+	candidato = melhor;
+	satClausulas();
+	melhorSolucao = totalClausulasSatisfeitas();
+
+
 
 	//Calcula tempo total de execucao do programa
 	end = clock();
 	elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
 
 
-	//Saída
-	imprimeBarra();
-	cout << "Este problema tem " << totalVariaveis << " variaveis e " << totalClausulas << " clausulas." << endl;
-
+	//Caso seja necessário um Debug
 	if(debug){
 		imprimeMatriz();		//DEBUG
 		imprimeVariaveis(variaveisB);	//DEBUG
@@ -108,12 +109,16 @@ int main(int argc, char* argv[]) {
 		imprimeTabu();
 	}
 
+	//Saída
+	imprimeBarra();
+	cout << "Este problema tem " << totalVariaveis << " variaveis e " << totalClausulas << " clausulas." << endl;
 	cout << "Solucao inicial: " << primeiraSolucao << "." << endl;	
-	cout << "Clausulas satisfeitas: " << melhorSolucao << "." << endl;
+	cout << "Solução final: " << melhorSolucao << "." << endl;
 	cout << "Tempo total decorrido: " << elapsed_secs << "s." << endl;
 
+	imprimeVariaveis(melhor);
+	imprimeClausulas();
 	imprimeBarra();
-
 	return 0;
 		
 }
@@ -234,12 +239,14 @@ void testaCandidatos(){
 
 	lBegin = clock();	//Comeca a contar o tempo do laco Tabu
 
+	/*Otimização para permitir melhoras*/
 	//Gera a Solução apartir de VariaveisB
-	candidato = variaveisB;
-	satClausulas();
-	melhorSolucaoCandidato = totalClausulasSatisfeitas();
+	//candidato = variaveisB;
+	//satClausulas();
+	//melhorSolucaoCandidato = totalClausulasSatisfeitas();
+	//melhorCandidato = candidato;
 
-	melhorCandidato = candidato;
+	melhorSolucaoCandidato = 0;
 
 	//Altera uma a uma as variaveis candidatas a alteracao
 	for(it=candidatos.begin(); it!=candidatos.end(); ++it){
@@ -256,11 +263,9 @@ void testaCandidatos(){
 		}
 		lEnd = clock();
 		tempoLaco = double(lEnd - lBegin) / CLOCKS_PER_SEC;
-		if(debug){
-			cout << "Tempo do laco TABU: " << tempoLaco << "s." << endl;
-		}
 		if(tempoLaco > tempoLimite){
 			if(debug){
+				cout << "Tempo do laco TABU: " << tempoLaco << "s." << endl;
 				cout << "Laco terminado por tempo." << endl;
 			}
 			break;
@@ -277,21 +282,20 @@ void testaCandidatos(){
 
 //Insere o melhor candidato na lista Tabu
 void insereTabu(vector<bool> vetor){
-	if(!buscaTabu(vetor)){
+	//if(!buscaTabu(vetor)){
 		tabu.push_back(vetor);
 		if(tabu.size() > tamanhoTabu){
 			tabu.pop_front();
 		}
-		resetLimite();
-	}
-	else{
-		incLimite();
-	}
+		//resetLimite();
+	//}
+	//else{
+	//	incLimite();
+	//}
 }
 
 //Verifica se o array candidato está na lista Tabu
 bool buscaTabu(vector<bool> vetor){
-	//for(int i = 0; i < tabu.size(); ++i){
 	if(find(tabu.begin(), tabu.end(), vetor) != tabu.end()){
 		return true;
 	}
@@ -300,17 +304,14 @@ bool buscaTabu(vector<bool> vetor){
 	}
 }
 
-//Funcoes sobre o LIMITE de iteracoes sem melhora (sem acrescentar novo candidato na tabela TABU)
+/*Funcoes sobre o LIMITE de iteracoes sem melhora (sem acrescentar novo candidato na tabela TABU)
 void resetLimite(){
 	itSemMelhora = 0;
 }
 void incLimite(){
 	itSemMelhora++;
-	if(debug){
-		cout << "Iteracoes sem melhora:" << itSemMelhora << endl;
-	}
 }
-
+*/
 
 //Funcoes de DEBUG e impressao
 //Imprime Barra Separadora
@@ -341,7 +342,7 @@ void imprimeVariaveis(vector<bool> vetor){
 	cout << "Valor das variaveis" << endl;
 
 	for (int i = 0; i < vetor.size(); ++i){
-		cout << "Variavel [" << i+1 << "]:" << vetor[i] << endl;
+		cout << "X[" << i+1 << "]:\t" << vetor[i] << endl;
 		
 	}
 		
@@ -354,7 +355,7 @@ void imprimeClausulas(){
 	cout << "Valor das Clausulas" << endl;
 
 	for (int j = 0; j < clausulasB.size(); ++j){
-		cout << "Clausula [" << j+1 << "]:" << clausulasB[j] << endl;
+		cout << "C[" << j+1 << "]:\t" << clausulasB[j] << endl;
 		
 	}
 		
@@ -379,6 +380,5 @@ void imprimeTabu(){
 void imprimeParametros(){
 		cout << "Tamanho da tabela: " << tamanhoTabu << endl;
 		cout << "Numero maximo de iteracoes totais: " << iteracoesTabu << endl;
-		cout << "Limite de iteracoes sem melhora de uma busca: " << limiteSemMelhora << endl;
 		cout << "Tempo maximo de cada iteracao: " << tempoLimite << "s" << endl;
 }
