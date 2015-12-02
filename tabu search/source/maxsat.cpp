@@ -8,6 +8,7 @@ int main(int argc, char* argv[]) {
 	int totalVariaveis, totalClausulas;	//Total de variaveis "X" e total de clausulas "Y"
 	int entrada;
 	int iteracoes;
+	int primeiraSolucao;
 
 	string linha, descarte;
 	double elapsed_secs;
@@ -69,6 +70,7 @@ int main(int argc, char* argv[]) {
 	candidato = variaveisB;
 	satClausulas();
 	melhorSolucao = totalClausulasSatisfeitas();
+	primeiraSolucao = melhorSolucao;
 	//Fim da Solução inicial
 
 
@@ -105,7 +107,8 @@ int main(int argc, char* argv[]) {
 		imprimeClausulas();		//DEBUG
 		imprimeTabu();
 	}
-	
+
+	cout << "Solucao inicial: " << primeiraSolucao << "." << endl;	
 	cout << "Clausulas satisfeitas: " << melhorSolucao << "." << endl;
 	cout << "Tempo total decorrido: " << elapsed_secs << "s." << endl;
 

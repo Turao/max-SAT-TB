@@ -1,0 +1,12 @@
+================================================================================
+Assumindo valores padrao de parametros:
+Tamanho da tabela: 25
+Numero maximo de iteracoes totais: 100
+Limite de iteracoes sem melhora de uma busca: 25
+Tempo maximo de cada iteracao: 5s
+================================================================================
+Este problema tem 175 variaveis e 753 clausulas.
+Solucao inicial: 708.
+Clausulas satisfeitas: 742.
+Tempo total decorrido: 11.0139s.
+================================================================================
