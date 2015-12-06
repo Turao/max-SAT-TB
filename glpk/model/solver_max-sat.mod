@@ -29,7 +29,7 @@ s.t. clause_value_restriction{j in Clauses}:
 		/* then, we test if there is a logical NOT op */
 		/* if true (1), we must subtract 1 in order to set this to false (0) */
 		/* if false (0), we must add 1 so we can have it true (1) */
-		(variable_present[i, j] * not_variable[i, j] * (variable_value[i] - 1) )
+		(variable_present[i, j] * not_variable[i, j] * (2 * variable_value[i] - 1) )
 	);
 
 end;
