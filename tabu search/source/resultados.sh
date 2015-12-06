@@ -32,7 +32,7 @@ do
 				solucao=$(echo "$line" | cut -d':' -f 2 | cut -d' ' -f 2 | cut -d'.' -f 1)
 			elif [ $i == 10 ]
 			then
-				tempo=$(echo "$line" | cut -d':' -f 2 | cut -d' ' -f 2 | cut -d's' -f 1)
+				tempo=$(echo "$line" | cut -d':' -f 2 | cut -d' ' -f 2 | cut -d's' -f 1 | tr '.' ',')
 				echo -n "$solucao;$tempo;" >> $OUTPUT
 				break
 			fi
